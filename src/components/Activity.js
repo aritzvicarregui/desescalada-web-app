@@ -1,7 +1,7 @@
 import React from "react";
 
-const Card = () => {
+const Activity = () => {
   return <div></div>;
 };
 
-export default Card;
+export default Activity;

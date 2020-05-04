@@ -1,10 +1,15 @@
 import React from "react";
 
-const CurrentDay = () => {
-  const today = new Date();
-  const date = today.getMonth() + 1 + today.getDate();
-
-  return <div className="date">{date}</div>;
+const CurrentDay = (props) => {
+  return (
+    <div className="currentDate">
+      <span className="day">{props.day}</span>
+      <span className="date">
+        {props.date}
+        {props.month}
+      </span>
+    </div>
+  );
 };
 
 export default CurrentDay;
