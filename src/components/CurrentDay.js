@@ -1,19 +1,10 @@
 import React from "react";
 
-const Date = () => {
-  return <span>{new Date().toDateString()}</span>;
+const CurrentDay = () => {
+  const today = new Date();
+  const date = today.getMonth() + 1 + today.getDate();
+
+  return <div className="date">{date}</div>;
 };
-export default Date;
 
-// Date object
-const currentDate = new Date();
-
-// Current Date
-var date =
-  currentDate.getFullYear() +
-  "-" +
-  (currentDate.getMonth() + 1) +
-  " " +
-  currentDate.getDate();
-
-document.getElementById("current_date").innerHTML = date;
+export default CurrentDay;
