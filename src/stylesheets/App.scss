@@ -1,6 +1,16 @@
-.currentDate {
-  width: 100px;
-  height: 80px;
-  background-color: red;
-  color: white;
+@import "./base/reset";
+@import "./base/structure";
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./layout/currentDate";
+@import "./layout/activity";
+@import "./layout/panel";
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+  display: grid;
+  grid-template-columns: 15px 1fr 15px;
+  grid-template-rows: 25px 80px 30px 1fr 60px 15px;
 }

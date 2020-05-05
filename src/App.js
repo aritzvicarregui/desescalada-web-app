@@ -1,6 +1,7 @@
 import React from "react";
 import Main from "./components/Main";
 import CurrentDay from "./components/CurrentDay";
+import "./stylesheets/App.scss";
 
 class App extends React.Component {
   constructor(props) {

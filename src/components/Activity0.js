@@ -1,45 +1,52 @@
 import React from "react";
+import church from "../images/church.svg";
+import sports from "../images/sports.svg";
+import funeral from "../images/funeral.svg";
+import museum from "../images/museum.svg";
+import catering from "../images/catering.svg";
+import shopping from "../images/shopping.svg";
+import ocio from "../images/ocio.svg";
 
 const Activity0 = (props) => {
   const infoHandler = (evt) => {
     evt.preventDefault();
-    props.displayInfo(evt.target.id);
+    props.displayInfo(evt.currentTarget.id);
   };
   return (
-    <div className="activities">
-      <ul>
+    <div className="container">
+      <ul className="activities">
         <li className="activity" id="ceremonias" onClick={infoHandler}>
-          <span className="icon__ceremonias"></span>
+          <img src={church} alt="ceremonias religiosas" className="img" />
           <h3>Ceremonias religiosas</h3>
           <span
             className={props.id === "ceremonias" ? "display" : "hidden"}
           ></span>
         </li>
         <li className="activity" id="comercios" onClick={infoHandler}>
-          <span className="icon__comercios"></span>
+          <img src={shopping} alt="comercios" className="img" />
           <h3>Comercios</h3>
           <span
             className={props.id === "comercios" ? "display" : "hidden"}
           ></span>
         </li>
         <li className="activity" id="deportes" onClick={infoHandler}>
-          <span className="icon__deportes"></span>
+          <img src={sports} alt="deporte" className="img" />
           <h3>Deporte</h3>
           <span
             className={props.id === "deportes" ? "display" : "hidden"}
           ></span>
         </li>
 
-        <li className="activity" id="eventos" onClick={infoHandler}>
-          <span className="icon__eventos"></span>
-          <h3>Eventos</h3>
+        <li className="activity" id="cultura" onClick={infoHandler}>
+          <img src={museum} alt="cultura" className="img" />
+          <h3>Cultura</h3>
           <span
-            className={props.id === "eventos" ? "display" : "hidden"}
+            className={props.id === "cultura" ? "display" : "hidden"}
           ></span>
         </li>
 
         <li className="activity" id="funerales" onClick={infoHandler}>
-          <span className="icon__funerales"></span>
+          <img src={funeral} alt="funerales" className="img" />
           <h3>Funerales</h3>
           <span
             className={props.id === "funerales" ? "display" : "hidden"}
@@ -47,7 +54,7 @@ const Activity0 = (props) => {
         </li>
 
         <li className="activity" id="hosteleria" onClick={infoHandler}>
-          <span className="icon__hosteleria"></span>
+          <img src={catering} alt="hosteleria" className="img" />
           <h3>Hostelería</h3>
           <span
             className={props.id === "hosteleria" ? "display" : "hidden"}
@@ -55,8 +62,8 @@ const Activity0 = (props) => {
         </li>
 
         <li className="activity" id="ocio" onClick={infoHandler}>
-          <span className="icon__ocio"></span>
-          <h3>Ocio y Cultura</h3>
+          <img src={ocio} alt="ocio" className="img" />
+          <h3>Ocio</h3>
           <span className={props.id === "ocio" ? "display" : "hidden"}></span>
         </li>
       </ul>

@@ -6,8 +6,8 @@ const Activity2 = (props) => {
     props.displayInfo(evt.target.id);
   };
   return (
-    <div className="activities">
-      <ul>
+    <div className="container">
+      <ul className="activities">
         <li className="activity" id="ceremonias" onClick={infoHandler}>
           <span className="icon__ceremonias"></span>
           <h3>Ceremonias religiosas</h3>
