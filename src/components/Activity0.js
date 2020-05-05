@@ -17,11 +17,9 @@ const Activity0 = (props) => {
       <ul className="activities">
         <li className="activity" id="ceremonias" onClick={infoHandler}>
           <img src={church} alt="ceremonias religiosas" className="img" />
-          <h3>Ceremonias religiosas</h3>
-          <span
-            className={props.id === "ceremonias" ? "display" : "hidden"}
-          ></span>
+          <h3>Ceremonias</h3>
         </li>
+
         <li className="activity" id="comercios" onClick={infoHandler}>
           <img src={shopping} alt="comercios" className="img" />
           <h3>Comercios</h3>
@@ -29,6 +27,7 @@ const Activity0 = (props) => {
             className={props.id === "comercios" ? "display" : "hidden"}
           ></span>
         </li>
+
         <li className="activity" id="deportes" onClick={infoHandler}>
           <img src={sports} alt="deporte" className="img" />
           <h3>Deporte</h3>
@@ -72,3 +71,4 @@ const Activity0 = (props) => {
 };
 
 export default Activity0;
+// añadir flecha verde apuntando hacia arriba para indicar aumento de aforo

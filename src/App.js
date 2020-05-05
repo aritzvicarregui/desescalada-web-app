@@ -9,6 +9,7 @@ class App extends React.Component {
     const today = new Date();
 
     this.state = {
+      year: today.getFullYear(),
       month: today.getMonth() + 1,
       day: today.getDay(),
       date: today.getDate(),
@@ -72,10 +73,10 @@ class App extends React.Component {
   }
 
   render() {
-    const { month, date, day, phase } = this.state;
+    const { year, month, date, day, phase } = this.state;
     return (
       <div className="App">
-        <CurrentDay month={month} date={date} day={day} />
+        <CurrentDay month={month} date={date} day={day} year={year} />
         <Main month={month} date={date} day={day} phase={phase} />
       </div>
     );
