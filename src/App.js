@@ -1,6 +1,7 @@
 import React from "react";
 import Main from "./components/Main";
 import CurrentDay from "./components/CurrentDay";
+import data from "./services/data";
 import "./stylesheets/App.scss";
 
 class App extends React.Component {
@@ -14,11 +15,14 @@ class App extends React.Component {
       day: today.getDay(),
       date: today.getDate(),
       phase: "",
+      results: data,
+      modal: [],
     };
   }
 
   componentDidMount() {
-    const { month, date, day } = this.state;
+    const { month, date, day, phase, results } = this.state;
+
     if (month === 1) {
       this.setState({ month: "enero" });
     } else if (month === 2) {
@@ -70,14 +74,24 @@ class App extends React.Component {
     } else if (month === 6 && date >= 8) {
       this.setState({ phase: 3 });
     }
+
+    if (phase === 0) {
+      this.setState({ modal: results[0].activities });
+    } else if (phase === 1) {
+      this.setState({ modal: results[1].activities });
+    } else if (phase === 2) {
+      this.setState({ modal: results[2].activities });
+    } else if (phase === 3) {
+      this.setState({ modal: results[3].activities });
+    }
   }
 
   render() {
-    const { year, month, date, day, phase } = this.state;
+    const { year, month, date, day, phase, modal } = this.state;
     return (
       <div className="App">
         <CurrentDay month={month} date={date} day={day} year={year} />
-        <Main month={month} date={date} day={day} phase={phase} />
+        <Main month={month} date={date} day={day} phase={phase} modal={modal} />
       </div>
     );
   }

@@ -7,7 +7,7 @@ import catering from "../images/catering.svg";
 import shopping from "../images/shopping.svg";
 import ocio from "../images/ocio.svg";
 
-const Activity0 = (props) => {
+const Activity = (props) => {
   const infoHandler = (evt) => {
     evt.preventDefault();
     props.displayInfo(evt.currentTarget.id);
@@ -70,5 +70,5 @@ const Activity0 = (props) => {
   );
 };
 
-export default Activity0;
+export default Activity;
 // añadir flecha verde apuntando hacia arriba para indicar aumento de aforo

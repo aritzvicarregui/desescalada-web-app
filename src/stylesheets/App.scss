@@ -3,13 +3,14 @@
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./layout/currentDate";
-@import "./layout/activity";
 @import "./layout/panel";
+@import "./layout/activity";
+@import "./layout/modal";
 
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(245, 245, 245);
+  background-color: $colorBgDefault;
   display: grid;
   grid-template-columns: 20px 1fr 20px;
   grid-template-rows: 25px 110px 30px 1fr 60px 15px;
