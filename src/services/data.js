@@ -2,156 +2,156 @@ const phases = [
   {
     name: "cero",
     activities: {
-      ceremonies: {
-        cult: null,
-        wedding: null,
+      ceremonias: {
+        cultos: null,
+        bodas: null,
       },
-      comerce: {
-        smallshop: "yes",
-        bigshop: null,
-        plaza: null,
-        streetmarket: null,
+      comercios: {
+        pequeños: "si",
+        grandes: null,
+        cc: null,
+        mercadillos: null,
       },
-      catering: {
-        takeaway: "yes",
-        inplace: null,
-        terrace: null,
-        disco: null,
-        hotel: null,
+      hosteleria: {
+        takeaway: "si",
+        enlocal: null,
+        terrazas: null,
+        discotecas: null,
+        hoteles: null,
       },
-      sports: {
-        individual: "yes",
-        professional: "yes",
-        tournaments: null,
+      deporte: {
+        individual: "si",
+        profesional: "si",
+        competiciones: null,
       },
-      culture: {
-        museum: null,
-        library: null,
+      cultura: {
+        museos: null,
+        bibliotecas: null,
       },
-      events: {
-        cinema: null,
-        show: null,
-        outdoors: null,
+      eventos: {
+        cine: null,
+        espectáculos: null,
+        exteriores: null,
       },
-      funerals: {
-        funerals: null,
+      funerales: {
+        funerales: null,
       },
     },
   },
   {
     name: "uno",
     activities: {
-      ceremonies: {
-        cult: "yes",
-        wedding: null,
+      ceremonias: {
+        cultos: "si",
+        bodas: null,
       },
-      comerce: {
-        smallshop: "yes",
-        bigshop: "yes",
-        plaza: null,
-        streetmarket: "yes",
+      comercios: {
+        pequeños: "si",
+        grandes: "si",
+        cc: null,
+        mercadillos: "si",
       },
-      catering: {
-        takeaway: "yes",
-        inplace: null,
-        terrace: "yes",
-        disco: null,
-        hotel: "yes",
+      hosteleria: {
+        takeaway: "si",
+        enlocal: null,
+        terrazas: "si",
+        discotecas: null,
+        hoteles: "si",
       },
-      sports: {
-        individual: "yes",
-        professional: "yes",
-        tournaments: null,
+      deporte: {
+        individual: "si",
+        profesional: "si",
+        competiciones: null,
       },
-      culture: {
-        museum: "yes",
-        library: "yes",
+      cultura: {
+        museos: "si",
+        bibliotecas: "si",
       },
-      events: {
-        cinema: null,
-        show: "yes",
-        outdoors: "yes",
+      eventos: {
+        cine: null,
+        espectáculos: "si",
+        exteriores: "si",
       },
-      funerals: {
-        funerals: "yes",
+      funerales: {
+        funerales: "si",
       },
     },
   },
   {
     name: "dos",
     activities: {
-      ceremonies: {
-        cult: "yes",
-        wedding: "yes",
+      ceremonias: {
+        cultos: "si",
+        bodas: "si",
       },
-      comerce: {
-        smallshop: "yes",
-        bigshop: "yes",
-        plaza: "yes",
-        streetmarket: "yes",
+      comercios: {
+        pequeños: "si",
+        grandes: "si",
+        cc: "si",
+        mercadillos: "si",
       },
-      catering: {
-        takeaway: "yes",
-        inplace: "yes",
-        terrace: "yes",
-        disco: null,
-        hotel: "yes",
+      hosteleria: {
+        takeaway: "si",
+        enlocal: "si",
+        terrazas: "si",
+        discotecas: null,
+        hoteles: "si",
       },
-      sports: {
-        individual: "yes",
-        professional: "yes",
-        tournaments: "yes",
+      deporte: {
+        individual: "si",
+        profesional: "si",
+        competiciones: "si",
       },
-      culture: {
-        museum: "yes",
-        library: "yes",
+      cultura: {
+        museos: "si",
+        bibliotecas: "si",
       },
-      events: {
-        cinema: "yes",
-        show: "yes",
-        outdoors: "yes",
+      eventos: {
+        cine: "si",
+        espectáculos: "si",
+        exteriores: "si",
       },
-      funerals: {
-        funerals: "yes",
+      funerales: {
+        funerales: "si",
       },
     },
   },
   {
     name: "tres",
     activities: {
-      ceremonies: {
-        cult: "yes",
-        wedding: "yes",
+      ceremonias: {
+        cultos: "si",
+        bodas: "si",
       },
-      comerce: {
-        smallshop: "yes",
-        bigshop: "yes",
-        plaza: "yes",
-        streetmarket: "yes",
+      comercios: {
+        pequeños: "si",
+        grandes: "si",
+        cc: "si",
+        mercadillos: "si",
       },
-      catering: {
-        takeaway: "yes",
-        inplace: "yes",
-        terrace: "yes",
-        disco: "yes",
-        hotel: "yes",
+      hosteleria: {
+        takeaway: "si",
+        enlocal: "si",
+        terrazas: "si",
+        discotecas: "si",
+        hoteles: "si",
       },
-      sports: {
-        individual: "yes",
-        professional: "yes",
-        tournaments: "yes",
+      deporte: {
+        individual: "si",
+        profesional: "si",
+        competiciones: "si",
       },
       culture: {
-        museum: "yes",
-        library: "yes",
+        museos: "si",
+        bibliotecas: "si",
       },
-      events: {
-        cinema: "yes",
-        show: "yes",
-        outdoors: "yes",
+      eventos: {
+        cine: "si",
+        espectáculos: "si",
+        exteriores: "si",
       },
-      funerals: {
-        funerals: "yes",
+      funerales: {
+        funerales: "si",
       },
     },
   },

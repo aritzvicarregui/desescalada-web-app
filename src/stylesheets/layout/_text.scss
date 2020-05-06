@@ -1,0 +1,62 @@
+.infoList {
+  grid-column: 2;
+
+  .li {
+    display: grid;
+    position: relative;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    .infoText {
+      display: inline-block;
+      text-align: center;
+      margin-top: 2%;
+      text-transform: capitalize;
+    }
+
+    .icon {
+      grid-column: 1;
+      grid-row: 1;
+      place-self: center;
+      width: 55px;
+      height: 55px;
+
+      &.cultos {
+        background: url(../../images/culto.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.bodas {
+        background: url(../../images/boda.svg) no-repeat;
+        background-size: contain;
+      }
+    }
+
+    .yes {
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      width: 25px;
+      height: 25px;
+      background: url(../../images/yes.svg) no-repeat;
+      background-size: contain;
+      place-self: center;
+      margin-top: 13%;
+      margin-left: 15%;
+      z-index: 999;
+    }
+
+    .no {
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      width: 25px;
+      height: 25px;
+      background: url(../../images/no.svg) no-repeat;
+      background-size: contain;
+      place-self: center;
+      margin-top: 13%;
+      margin-left: 15%;
+      z-index: 999;
+    }
+  }
+}

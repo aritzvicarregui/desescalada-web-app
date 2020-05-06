@@ -21,7 +21,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    const { month, date, day, phase, results } = this.state;
+    const { month, date, day, results } = this.state;
 
     if (month === 1) {
       this.setState({ month: "enero" });
@@ -66,23 +66,13 @@ class App extends React.Component {
     }
 
     if (month === 5 && date >= 4 && date < 11) {
-      this.setState({ phase: 0 });
+      this.setState({ phase: 0, modal: results[0].activities });
     } else if (month === 5 && date >= 11 && date < 25) {
-      this.setState({ phase: 1 });
+      this.setState({ phase: 1, modal: results[1].activities });
     } else if (month === 5 && date >= 25) {
-      this.setState({ phase: 2 });
+      this.setState({ phase: 2, modal: results[2].activities });
     } else if (month === 6 && date >= 8) {
-      this.setState({ phase: 3 });
-    }
-
-    if (phase === 0) {
-      this.setState({ modal: results[0].activities });
-    } else if (phase === 1) {
-      this.setState({ modal: results[1].activities });
-    } else if (phase === 2) {
-      this.setState({ modal: results[2].activities });
-    } else if (phase === 3) {
-      this.setState({ modal: results[3].activities });
+      this.setState({ phase: 3, modal: results[3].activities });
     }
   }
 

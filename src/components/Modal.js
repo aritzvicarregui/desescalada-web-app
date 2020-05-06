@@ -1,20 +1,28 @@
 import React from "react";
+import Text from "./Text";
 
 const Modal = (props) => {
-  const { isOpen, id, phase, modal } = props;
+  const { id, modal } = props;
   const onClose = (evt) => {
     evt.preventDefault();
     props.modalHandler();
-    console.log(id);
   };
-  console.log(modal);
+
+  const showInfo = () => {
+    for (const [key, value] of Object.entries(modal)) {
+      if (key === id) {
+        return <Text value={value} />;
+      }
+    }
+  };
+
   return (
     <div className={id !== "" ? "modal modal--is-open" : "modal"}>
       <button className="close" onClick={onClose}>
-        x
+        X
       </button>
-      <h4>{props.id}</h4>
-      <div className="content">{phase === 0}</div>
+      <h4>{id}</h4>
+      <div className="content">{showInfo()}</div>
     </div>
   );
 };

@@ -28,7 +28,7 @@ const Activity = (props) => {
           ></span>
         </li>
 
-        <li className="activity" id="deportes" onClick={infoHandler}>
+        <li className="activity" id="deporte" onClick={infoHandler}>
           <img src={sports} alt="deporte" className="img" />
           <h3>Deporte</h3>
           <span

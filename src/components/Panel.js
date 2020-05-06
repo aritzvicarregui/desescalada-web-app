@@ -1,5 +1,5 @@
 import React from "react";
-import Activity1 from "./Activity";
+import Activity from "./Activity";
 import CurrentPhase from "./CurrentPhase";
 import Modal from "./Modal";
 
@@ -31,8 +31,8 @@ class Panel extends React.Component {
   }
 
   render() {
-    const { month, date, day, phase } = this.props;
-    const { id, modal } = this.state;
+    const { month, date, day, phase, modal } = this.props;
+    const { id } = this.state;
     return (
       <div className="panel">
         <CurrentPhase month={month} date={date} day={day} phase={phase} />
