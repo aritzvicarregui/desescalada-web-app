@@ -1,16 +1,21 @@
 .panel {
-  grid-row: 3;
-  grid-column: 2;
+  grid-row: 3/5;
+  grid-column: 3/11;
 
   .currentPhase {
-    font-size: 1.3rem;
-    text-align: center;
-    color: #505050;
     border: none;
     border-radius: 0px 0px 20px 20px;
-    background-color: $colorLvl2;
+    background-color: #1d3752;
     box-shadow: $shadowBox;
-    padding: 5px;
+    padding: 5%;
+    grid-column: 2/10;
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: normal;
+      text-align: center;
+      color: $colorBgDefault;
+    }
   }
 
   .container {

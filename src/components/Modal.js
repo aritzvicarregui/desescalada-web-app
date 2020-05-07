@@ -18,10 +18,8 @@ const Modal = (props) => {
 
   return (
     <div className={id !== "" ? "modal modal--is-open" : "modal"}>
-      <button className="close" onClick={onClose}>
-        X
-      </button>
-      <h4>{id}</h4>
+      <div className="closeButton" onClick={onClose}></div>
+      <h5>{id}</h5>
       <div className="content">{showInfo()}</div>
     </div>
   );

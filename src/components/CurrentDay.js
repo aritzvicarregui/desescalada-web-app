@@ -3,10 +3,10 @@ import React from "react";
 const CurrentDay = (props) => {
   return (
     <div className="currentDate">
-      <span className="day">{props.day}</span>
-      <span className="date">
+      <h1 className="day">{props.day}</h1>
+      <h2 className="date">
         {props.date} {props.month} {props.year}
-      </span>
+      </h2>
     </div>
   );
 };

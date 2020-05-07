@@ -1,7 +1,12 @@
 import React from "react";
 
-const Panel = () => {
-  return <div className="phases"></div>;
+const Phases = () => {
+  return (
+    <div className="phases">
+      <h4>Desescalada Fases</h4>
+      <ul></ul>
+    </div>
+  );
 };
 
-export default Panel;
+export default Phases;

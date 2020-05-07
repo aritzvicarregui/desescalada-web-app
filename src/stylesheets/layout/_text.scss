@@ -2,14 +2,24 @@
   grid-column: 2;
 
   .li {
+    width: 100%;
     display: grid;
+    grid-template-columns: 55px 1fr;
     position: relative;
     list-style: none;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: $colorBgLi;
+    margin-bottom: 10px;
+
+    &.enable {
+      background: url(../../images/enable.png);
+      background-size: cover;
+    }
 
     .infoText {
       display: inline-block;
+      place-self: center;
       text-align: center;
       margin-top: 2%;
       text-transform: capitalize;
@@ -19,8 +29,8 @@
       grid-column: 1;
       grid-row: 1;
       place-self: center;
-      width: 55px;
-      height: 55px;
+      width: 50px;
+      height: 50px;
 
       &.cultos {
         background: url(../../images/culto.svg) no-repeat;
@@ -31,31 +41,121 @@
         background: url(../../images/boda.svg) no-repeat;
         background-size: contain;
       }
+
+      &.pequeños {
+        background: url(../../images/pequeñatienda.png) no-repeat;
+        background-size: contain;
+      }
+
+      &.grandes {
+        background: url(../../images/grantienda.png) no-repeat;
+        background-size: contain;
+      }
+
+      &.cc {
+        background: url(../../images/mall.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.mercadillos {
+        background: url(../../images/mercadillos.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.individual {
+        background: url(../../images/individual.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.profesional {
+        background: url(../../images/profesional.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.competiciones {
+        background: url(../../images/competiciones.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.museos {
+        background: url(../../images/museo.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.bibliotecas {
+        background: url(../../images/biblioteca.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.funerales {
+        background: url(../../images/funerales.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.takeaway {
+        background: url(../../images/takeaway.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.enlocal {
+        background: url(../../images/enlocal.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.terrazas {
+        background: url(../../images/terrazas.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.discotecas {
+        background: url(../../images/discotecas.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.hoteles {
+        background: url(../../images/hotel.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.cine {
+        background: url(../../images/cine.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.espectáculos {
+        background: url(../../images/show.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.exteriores {
+        background: url(../../images/festival.svg) no-repeat;
+        background-size: contain;
+      }
     }
 
     .yes {
       grid-column: 1;
       grid-row: 1 / span 2;
-      width: 25px;
-      height: 25px;
+      width: 20px;
+      height: 20px;
       background: url(../../images/yes.svg) no-repeat;
       background-size: contain;
       place-self: center;
-      margin-top: 13%;
-      margin-left: 15%;
+      margin-top: 60%;
+      margin-left: 70%;
       z-index: 999;
     }
 
     .no {
       grid-column: 1;
       grid-row: 1 / span 2;
-      width: 25px;
-      height: 25px;
+      width: 20px;
+      height: 20px;
       background: url(../../images/no.svg) no-repeat;
       background-size: contain;
       place-self: center;
-      margin-top: 13%;
-      margin-left: 15%;
+      margin-top: 60%;
+      margin-left: 70%;
       z-index: 999;
     }
   }

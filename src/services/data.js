@@ -12,7 +12,7 @@ const phases = [
         cc: null,
         mercadillos: null,
       },
-      hosteleria: {
+      hostelería: {
         takeaway: "si",
         enlocal: null,
         terrazas: null,
@@ -28,7 +28,7 @@ const phases = [
         museos: null,
         bibliotecas: null,
       },
-      eventos: {
+      ocio: {
         cine: null,
         espectáculos: null,
         exteriores: null,
