@@ -1,10 +1,10 @@
 import React from "react";
 
-const Phases = () => {
+const Phases = (props) => {
+  const showInfo = () => {};
   return (
-    <div className="phases">
-      <h4>Desescalada Fases</h4>
-      <ul></ul>
+    <div className="phases" onClick={showInfo}>
+      <h4>Fases desescalada</h4>
     </div>
   );
 };

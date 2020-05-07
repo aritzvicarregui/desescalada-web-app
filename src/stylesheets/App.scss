@@ -7,6 +7,7 @@
 @import "./layout/activity";
 @import "./layout/modal";
 @import "./layout/text";
+@import "./layout/phases";
 
 .App {
   width: 100vw;
@@ -14,5 +15,5 @@
   background-color: $colorBgDefault;
   display: grid;
   grid-template-columns: 25px repeat(10, 1fr) 25px;
-  grid-template-rows: 35px 100px 30px 1fr 25px;
+  grid-template-rows: 30px 100px 30px 1fr 25px;
 }
