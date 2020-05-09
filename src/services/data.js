@@ -1,17 +1,17 @@
 const phases = [
   {
+    name: "cero",
     actividades: {
       ceremonias: {
         cultos: null,
         bodas: null,
-        texto: null,
       },
       comercios: {
         pequeños: "si",
-        cc: null,
         mercadillos: null,
+        cc: null,
         texto:
-          "Apertura de pequeños comercios (locales de menos de 400m2): con cita previa y atención individual.",
+          "Apertura de pequeños comercios con cita previa y atención individual.",
       },
       hostelería: {
         takeaway: "si",
@@ -26,7 +26,7 @@ const phases = [
         individual: "si",
         profesional: "si",
         competiciones: null,
-        texto: "Entrenamientos individuales de deportistas profesionales.",
+        texto: "Entrenamiento individual de deportistas profesionales.",
       },
       cultura: {
         museos: null,
@@ -48,13 +48,13 @@ const phases = [
       ceremonias: {
         cultos: "si",
         bodas: null,
-        texto: "En lugares de culto : limitación de aforo del 30%.",
+        texto: "En lugares de culto : aforo limitado al 30%.",
       },
       comercios: {
         pequeños: "si",
-        cc: null,
         mercadillos: "si",
-        texto: "Apertura de comercios ",
+        cc: null,
+        texto: "Mercadillos: aforo limitado al 25%.",
       },
       hosteleria: {
         takeaway: "si",
@@ -62,6 +62,8 @@ const phases = [
         terrazas: "si",
         discotecas: null,
         hoteles: "si",
+        texto:
+          "Apertura de terrazas con ciertas limitaciones: aforo hasta 30%-50%, distancia mínima de 2m entre mesas y máximo 10 personas. Apertura de hoteles y alojamientos turísticos.",
       },
       deporte: {
         individual: "si",
@@ -73,14 +75,18 @@ const phases = [
       cultura: {
         museos: "si",
         bibliotecas: "si",
+        texto: "Apertura de museos: aforo limitado al 33%.",
       },
       eventos: {
         cine: null,
         espectáculos: "si",
         exteriores: "si",
+        texto:
+          "Actividades culturales: aforo limitado al 33%. Lugares cerrados: máximo 30 personas. Al aire libre: máximo 200 personas sentadas.",
       },
       funerales: {
         funerales: "si",
+        texto: "Velatorios y actos fúnebres: aforo limitado a consultar.",
       },
     },
   },
@@ -90,11 +96,15 @@ const phases = [
       ceremonias: {
         cultos: "si",
         bodas: "si",
+        texto:
+          "En lugares de culto: aforo limitado al 50%. Bodas: aforo limitado a consultar.",
       },
       comercios: {
         pequeños: "si",
-        cc: "si",
         mercadillos: "si",
+        cc: "si",
+        texto:
+          "Mercadillos: aforo limitado al 33%. Apertura de centros comerciales, salvo zonas comunes o áreas recreativas: aforo limitado al 40%.",
       },
       hosteleria: {
         takeaway: "si",
@@ -102,22 +112,27 @@ const phases = [
         terrazas: "si",
         discotecas: null,
         hoteles: "si",
+        texto:
+          "Apertura de restaurantes y bares para el servicio de mesas, aforo limitado al 33% y respetando la distancia mínima recomendada. Apertura de zonas comunes en hoteles con restricciones específicas.",
       },
       deporte: {
         individual: "si",
         profesional: "si",
         competiciones: "si",
         texto:
-          "Campeonatos profesionales en partidos a puerta cerrada o con limitación de aforo, con posibilidad de ser retransmitidos.",
+          "Campeonatos profesionales en partidos a puerta cerrada o con aforo limitado, con posibilidad de ser retransmitidos.",
       },
       cultura: {
         museos: "si",
         bibliotecas: "si",
+        texto: "Apertura de bibliotecas limitado al servicio de préstamo.",
       },
       eventos: {
         cine: "si",
         espectáculos: "si",
         exteriores: "si",
+        texto:
+          "Apertura de cines y teatros: aforo limitado al 50%. Actividades culturales en lugares cerrados: máximo 50 personas, y al aire libre: máximo 400 personas sentadas.",
       },
       funerales: {
         funerales: "si",
@@ -133,8 +148,10 @@ const phases = [
       },
       comercios: {
         pequeños: "si",
-        cc: "si",
         mercadillos: "si",
+        cc: "si",
+        texto:
+          "Apertura de zonas comunes y recreativas en Centros Comerciales: aforo limitado al 50%. Mercadillo: aforo limitado al 50%.",
       },
       hosteleria: {
         takeaway: "si",
@@ -142,6 +159,8 @@ const phases = [
         terrazas: "si",
         discotecas: "si",
         hoteles: "si",
+        texto:
+          "Restaurantes: aforo limitado al 50% y consumo en barra. Apertura de bares nocturnos y discotecas con aforo limitado al 33%. Apertura de zonas comunes en hoteles y alojamientos turísticos: aforo limitado al 50%.",
       },
       deporte: {
         individual: "si",
@@ -156,6 +175,7 @@ const phases = [
         cine: "si",
         espectáculos: "si",
         exteriores: "si",
+        texto: "Actividades culturales: aumenta el aforo limitado.",
       },
       funerales: {
         funerales: "si",

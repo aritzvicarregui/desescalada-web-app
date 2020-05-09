@@ -67,7 +67,7 @@ class App extends React.Component {
 
     if (month === 5 && date >= 4 && date < 11) {
       this.setState({ phase: 0, modal: results[0].actividades });
-    } else if (month === 5 && date >= 11 && date < 25) {
+    } else if (month === 5 && date >= 15 && date < 25) {
       this.setState({ phase: 1, modal: results[1].actividades });
     } else if (month === 5 && date >= 25) {
       this.setState({ phase: 2, modal: results[2].actividades });
