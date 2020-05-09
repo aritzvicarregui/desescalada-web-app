@@ -11,18 +11,41 @@
     border-radius: 20px;
     background-color: $colorBgLi;
     margin-bottom: 10px;
+    :first-letter {
+      text-transform: capitalize;
+    }
 
     &.enable {
       background: url(../../images/enable.png);
       background-size: cover;
     }
 
+    &.moreInfo {
+      color: $colorBgHeaderDark;
+      background-color: $colorLvl2;
+      box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+      grid-template-columns: 1fr;
+      :first-letter {
+        text-transform: capitalize;
+      }
+      :first-line {
+        font-weight: bold;
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+        color: $colorIcons;
+      }
+    }
+
     .infoText {
       display: inline-block;
       place-self: center;
       text-align: center;
-      margin-top: 2%;
-      text-transform: capitalize;
+
+      &.text {
+        font-size: $fontP;
+        line-height: $lineHeight;
+        letter-spacing: 1.1px;
+      }
     }
 
     .icon {
@@ -157,6 +180,10 @@
       margin-top: 60%;
       margin-left: 70%;
       z-index: 999;
+    }
+
+    .empty {
+      display: none;
     }
   }
 }

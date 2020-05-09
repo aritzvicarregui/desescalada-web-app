@@ -1,16 +1,17 @@
 const phases = [
   {
-    name: "cero",
-    activities: {
+    actividades: {
       ceremonias: {
         cultos: null,
         bodas: null,
+        texto: null,
       },
       comercios: {
         pequeños: "si",
-        grandes: null,
         cc: null,
         mercadillos: null,
+        texto:
+          "Apertura de pequeños comercios (locales de menos de 400m2): con cita previa y atención individual.",
       },
       hostelería: {
         takeaway: "si",
@@ -18,11 +19,14 @@ const phases = [
         terrazas: null,
         discotecas: null,
         hoteles: null,
+        texto:
+          "Apertura de pequeños locales con cita previa y atención idividual.",
       },
       deporte: {
         individual: "si",
         profesional: "si",
         competiciones: null,
+        texto: "Entrenamientos individuales de deportistas profesionales.",
       },
       cultura: {
         museos: null,
@@ -44,12 +48,13 @@ const phases = [
       ceremonias: {
         cultos: "si",
         bodas: null,
+        texto: "En lugares de culto : limitación de aforo del 30%.",
       },
       comercios: {
         pequeños: "si",
-        grandes: "si",
         cc: null,
         mercadillos: "si",
+        texto: "Apertura de comercios ",
       },
       hosteleria: {
         takeaway: "si",
@@ -62,6 +67,8 @@ const phases = [
         individual: "si",
         profesional: "si",
         competiciones: null,
+        texto:
+          "Deporte No Profesional: se podrán realizar actividades que no impliquen contacto físico ni uso de vestuarios. Deporte Profesional: Apertura de centros deportivos de alto rendimiento.",
       },
       cultura: {
         museos: "si",
@@ -86,7 +93,6 @@ const phases = [
       },
       comercios: {
         pequeños: "si",
-        grandes: "si",
         cc: "si",
         mercadillos: "si",
       },
@@ -101,6 +107,8 @@ const phases = [
         individual: "si",
         profesional: "si",
         competiciones: "si",
+        texto:
+          "Campeonatos profesionales en partidos a puerta cerrada o con limitación de aforo, con posibilidad de ser retransmitidos.",
       },
       cultura: {
         museos: "si",
@@ -125,7 +133,6 @@ const phases = [
       },
       comercios: {
         pequeños: "si",
-        grandes: "si",
         cc: "si",
         mercadillos: "si",
       },

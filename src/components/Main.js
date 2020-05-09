@@ -1,6 +1,6 @@
 import React from "react";
 import Panel from "./Panel";
-import Phases from "./Phases";
+import PhasesButton from "./PhasesButton";
 
 const Main = (props) => {
   const { month, date, day, phase, modal } = props;
@@ -8,7 +8,7 @@ const Main = (props) => {
   return (
     <React.Fragment>
       <Panel month={month} date={date} day={day} phase={phase} modal={modal} />
-      <Phases />
+      <PhasesButton />
     </React.Fragment>
   );
 };
