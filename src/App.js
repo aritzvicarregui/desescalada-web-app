@@ -2,6 +2,7 @@ import React from "react";
 import Main from "./components/Main";
 import CurrentDay from "./components/CurrentDay";
 import data from "./services/data";
+import data2 from "./services/data2";
 import "./stylesheets/App.scss";
 
 class App extends React.Component {
@@ -16,8 +17,10 @@ class App extends React.Component {
       date: today.getDate(),
       phase: "",
       results: data,
+      resultsb: data2[0],
       modal: [],
     };
+    console.log(data2[0].madrid);
   }
 
   componentDidMount() {

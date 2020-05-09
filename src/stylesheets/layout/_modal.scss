@@ -1,19 +1,30 @@
+.overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 850;
+}
 .modal {
   opacity: 0;
 
   &.modal--is-open {
     position: absolute;
-    width: 98%;
-    height: 70%;
+    width: 80%;
     padding: 5%;
     display: grid;
     grid-template-rows: 40px 20px 1fr 30px;
     grid-template-columns: 15px 1fr 10px;
-    top: 30%;
-    left: 1%;
+    top: 5%;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
     background-color: $colorLvl1;
     opacity: 100;
-    z-index: 990;
+    backdrop-filter: black;
+    z-index: 900;
 
     .closeButton {
       width: 50px;

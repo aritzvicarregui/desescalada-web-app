@@ -1,268 +1,932 @@
 const data2 = [
   {
-    fase: 1,
-    1: [
-      {
-        ciudad: "Madrid",
+    madrid: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
         dia: 18,
         mes: 5,
       },
-      {
-        ciudad: "Barcelona",
-        dia: 18,
-        mes: 5,
+      2: {
+        dia: 1,
+        mes: 6,
       },
-      {
-        ciudad: "Valencia",
-        dia: 18,
-        mes: 5,
+      3: {
+        dia: 15,
+        mes: 6,
       },
-      {
-        ciudad: "Sevilla",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Alicante",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Málaga",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Murcia",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Cádiz",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Vizcaya",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Baleares",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "La Coruña",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Las Palmas",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Asturias",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Santa Cruz de Tenerife",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Zaragoza",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Pontevedra",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Granada",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Tarragona",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Córdoba",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Gerona",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Guipúzcoa",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Almería",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Toledo",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Badajoz",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Navarra",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Jaén",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Cantabria",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Castellón",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Huelva",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Valladolid",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Ciudad Real",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "León",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Lérida",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Cáceres",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Albacete",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Burgos",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Álava",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Salamanca",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Lugo",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "La Rioja",
-        dia: 11,
-        mes: 5,
-      },
+    },
 
-      {
-        ciudad: "Orense",
-        dia: 11,
+    barcelona: {
+      0: {
+        dia: 4,
         mes: 5,
       },
-      {
-        ciudad: "Guadalajara",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Huesca",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Cuenca",
-        dia: 11,
-        mes: 5,
-      },
-      {
-        ciudad: "Zamora",
+      1: {
         dia: 18,
         mes: 5,
       },
-      {
-        ciudad: "Palencia",
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+
+    valencia: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
         dia: 18,
         mes: 5,
       },
-      {
-        ciudad: "Ávila",
-        dia: 18,
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    sevilla: {
+      0: {
+        dia: 4,
         mes: 5,
       },
-      {
-        ciudad: "Segovia",
-        dia: 18,
-        mes: 5,
-      },
-      {
-        ciudad: "Teruel",
+      1: {
         dia: 11,
         mes: 5,
       },
-      {
-        ciudad: "Soria",
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    alicante: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
         dia: 18,
         mes: 5,
       },
-      {
-        ciudad: "Melilla",
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    málaga: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    murcia: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
         dia: 11,
         mes: 5,
       },
-      {
-        ciudad: "Ceuta",
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    cádiz: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
         dia: 11,
         mes: 5,
       },
-    ],
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    vizcaya: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    baleares: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    lc: {
+      ciudad: "La Coruña",
+      dia: 11,
+      mes: 5,
+    },
+    lp: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    asturias: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    tenerife: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    zaragoza: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    pontevedra: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    granada: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    tarragona: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    córdoba: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    gerona: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    guipúzcoa: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    almería: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    toledo: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    badajoz: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    navarra: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    jaén: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    cantabria: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    castellón: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    huelva: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    valladolid: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    cr: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    león: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    lérida: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    cáceres: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    albacete: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    burgos: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    álava: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    salamanca: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    lugo: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    lr: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+
+    orense: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    guadalajara: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    huesca: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    cuenca: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    zamora: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    palencia: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    ávila: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    segovia: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    teruel: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    soria: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 18,
+        mes: 5,
+      },
+      2: {
+        dia: 1,
+        mes: 6,
+      },
+      3: {
+        dia: 15,
+        mes: 6,
+      },
+    },
+    melilla: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
+    ceuta: {
+      0: {
+        dia: 4,
+        mes: 5,
+      },
+      1: {
+        dia: 11,
+        mes: 5,
+      },
+      2: {
+        dia: 25,
+        mes: 5,
+      },
+      3: {
+        dia: 8,
+        mes: 6,
+      },
+    },
   },
 ];
+
+export default data2;

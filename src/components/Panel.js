@@ -27,7 +27,6 @@ class Panel extends React.Component {
 
   displayInfo(value) {
     this.setState({ id: value });
-    console.log(value);
   }
 
   render() {
