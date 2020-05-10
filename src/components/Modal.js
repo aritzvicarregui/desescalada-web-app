@@ -2,16 +2,19 @@ import React from "react";
 import Text from "./Text";
 
 const Modal = (props) => {
-  const { id, modal } = props;
+  const { id, activities } = props;
+  const info = Object.entries(activities);
   const onClose = (evt) => {
     evt.preventDefault();
     props.modalHandler();
   };
+  console.log("MODAL", info, id);
 
   const showInfo = () => {
-    for (const [key, value] of Object.entries(modal)) {
-      if (key === id) {
-        return <Text value={value} />;
+    for (const [key, value] of Object.entries(info)) {
+      console.log("KEY", key, "VALUE", value);
+      if (value[0] === id) {
+        return <Text value={value[1]} />;
       }
     }
   };

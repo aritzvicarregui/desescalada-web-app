@@ -12,6 +12,7 @@ const Activity = (props) => {
     evt.preventDefault();
     props.displayInfo(evt.currentTarget.id);
   };
+
   return (
     <div className="container">
       <ul className="activities">

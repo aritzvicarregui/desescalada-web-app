@@ -20,7 +20,7 @@ const phases = [
         discotecas: null,
         hoteles: null,
         texto:
-          "Apertura de pequeños locales con cita previa y atención idividual.",
+          "Apertura de pequeños locales con cita previa y atención individual.",
       },
       deporte: {
         individual: "si",

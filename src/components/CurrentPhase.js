@@ -1,9 +1,10 @@
 import React from "react";
 
 const CurrentPhase = (props) => {
+  const { phase } = props;
   return (
     <div className="currentPhase">
-      <h3> Fase actual &#187; {props.phase}</h3>
+      <h3>Fase: {phase}</h3>
     </div>
   );
 };

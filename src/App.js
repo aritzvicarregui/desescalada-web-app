@@ -15,16 +15,34 @@ class App extends React.Component {
       month: today.getMonth() + 1,
       day: today.getDay(),
       date: today.getDate(),
-      phase: "",
       results: data,
       resultsb: data2[0],
-      modal: [],
+      phase: "--",
+      city: "",
+      activities: [],
     };
-    console.log(data2[0].madrid);
+
+    this.getCity = this.getCity.bind(this);
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem("currentPhase", JSON.stringify(this.state.phase));
+    localStorage.setItem("currentCity", JSON.stringify(this.state.city));
   }
 
   componentDidMount() {
-    const { month, date, day, results } = this.state;
+    const { month, day } = this.state;
+    const phaseInfo = JSON.parse(localStorage.getItem("currentPhase"));
+    const cityInfo = JSON.parse(localStorage.getItem("currentCity"));
+    if (
+      localStorage.getItem("currentPhase") &&
+      localStorage.getItem("currentCity")
+    ) {
+      this.setState({
+        phase: phaseInfo,
+        city: cityInfo,
+      });
+    }
 
     if (month === 1) {
       this.setState({ month: "enero" });
@@ -64,27 +82,61 @@ class App extends React.Component {
       this.setState({ day: "viernes" });
     } else if (day === 6) {
       this.setState({ day: "sábado" });
-    } else if (day === 7) {
+    } else if (day === 0) {
       this.setState({ day: "domingo" });
     }
+  }
 
-    if (month === 5 && date >= 4 && date < 11) {
-      this.setState({ phase: 0, modal: results[0].actividades });
-    } else if (month === 5 && date >= 15 && date < 25) {
-      this.setState({ phase: 1, modal: results[1].actividades });
-    } else if (month === 5 && date >= 25) {
-      this.setState({ phase: 2, modal: results[2].actividades });
-    } else if (month === 6 && date >= 8) {
-      this.setState({ phase: 3, modal: results[3].actividades });
+  getCity(value) {
+    const { resultsb, date, month, results } = this.state;
+    const arrays = Object.entries(resultsb);
+    const result = arrays.find((array) => array[0] === value);
+    const activity = Object.entries(result[1]);
+    const activityList = Object.entries(results[0]);
+    console.log("APP", activityList[1][1]);
+    if (
+      date >= activity[0][1].dia &&
+      date <= activity[1][1].dia &&
+      month === activity[0][1].mes
+    ) {
+      this.setState({ city: value, phase: 0, activities: activityList[1][1] });
+    } else if (
+      date >= activity[1][1].dia &&
+      date <= activity[2][1].dia &&
+      month === activity[1][1].mes
+    ) {
+      this.setState({ city: value, phase: 1, activities: activityList[1][1] });
+    } else if (
+      date >= activity[2][1].dia &&
+      date <= activity[3][1].dia &&
+      month === activity[2][1].mes
+    ) {
+      this.setState({ city: value, phase: 2, activities: activityList[1][1] });
+    } else if (
+      date >= activity[3][1].dia &&
+      date <= 31 &&
+      month === activity[3][1].mes
+    ) {
+      this.setState({ city: value, phase: 3, activities: activityList[1][1] });
+    } else {
+      this.setState({ city: value, phase: 4, activities: "nueva normalidad" });
     }
   }
 
   render() {
-    const { year, month, date, day, phase, modal } = this.state;
+    const { year, month, date, day, phase, activities, city } = this.state;
     return (
       <div className="App">
         <CurrentDay month={month} date={date} day={day} year={year} />
-        <Main month={month} date={date} day={day} phase={phase} modal={modal} />
+        <Main
+          month={month}
+          date={date}
+          day={day}
+          phase={phase}
+          city={city}
+          activities={activities}
+          getCity={this.getCity}
+        />
       </div>
     );
   }

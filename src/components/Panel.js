@@ -1,5 +1,6 @@
 import React from "react";
 import Activity from "./Activity";
+import City from "./City";
 import CurrentPhase from "./CurrentPhase";
 import Modal from "./Modal";
 
@@ -30,16 +31,23 @@ class Panel extends React.Component {
   }
 
   render() {
-    const { month, date, day, phase, modal } = this.props;
+    const { month, date, day, phase, activities, city, getCity } = this.props;
     const { id } = this.state;
+    console.log("PANEL", activities);
     return (
       <div className="panel">
+        <City getCity={getCity} city={city} />
         <CurrentPhase month={month} date={date} day={day} phase={phase} />
-        <Activity id={id} phase={phase} displayInfo={this.displayInfo} />
+        <Activity
+          id={id}
+          phase={phase}
+          activities={activities}
+          displayInfo={this.displayInfo}
+        />
         <Modal
           id={id}
           phase={phase}
-          modal={modal}
+          activities={activities}
           isOpen={this.isModalOpen}
           modalHandler={this.modalHandler}
         />
