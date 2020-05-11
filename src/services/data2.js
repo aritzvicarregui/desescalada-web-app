@@ -42,6 +42,7 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info: "Requena, Xàtiva-Ontinyent y Gandía pasan a Fase 1.",
       },
       1: {
         dia: 18,
@@ -78,6 +79,8 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info:
+          "Alcoy, Dénia, La Marina Baixa, Elda, Orihuela y Torrevieja pasan a Fase 1.",
       },
       1: {
         dia: 18,
@@ -183,9 +186,22 @@ const data2 = [
       },
     },
     lc: {
-      ciudad: "La Coruña",
-      dia: 11,
-      mes: "mayo",
+      0: {
+        dia: 4,
+        mes: "mayo",
+      },
+      1: {
+        dia: 11,
+        mes: "mayo",
+      },
+      2: {
+        dia: 25,
+        mes: "mayo",
+      },
+      3: {
+        dia: 8,
+        mes: "junio",
+      },
     },
     lp: {
       0: {
@@ -299,6 +315,7 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info: "Terres de l'/Ebre y Camp de Tarragona pasan a Fase 1.",
       },
       1: {
         dia: 11,
@@ -479,6 +496,7 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info: "Vinarós pasa a Fase 1.",
       },
       1: {
         dia: 11,
@@ -515,6 +533,8 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info:
+          "Alaejos, Mayorga de Campos y Esguevillas de Esgueva pasan a Fase 1.",
       },
       1: {
         dia: 18,
@@ -551,6 +571,7 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info: "Truchas, Matallana de Torio y Riaño.",
       },
       1: {
         dia: 18,
@@ -569,6 +590,7 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info: "Alt Pirineu i Aran pasa a Fase 1.",
       },
       1: {
         dia: 18,
@@ -623,6 +645,8 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info:
+          "Sedano, Valle de Losa, Quintanar de la Sierra, Espinosa de los Monteros, Pampliega y Valle de Mena pasan a Fase 1.",
       },
       1: {
         dia: 18,
@@ -659,6 +683,8 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info:
+          "Robleda, Aldeadávila de la Ribera, Lumbrales y Miranda del Castañar pasan a Fase 1.",
       },
       1: {
         dia: 18,
@@ -786,6 +812,8 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info:
+          " Alcañices, Alta Sanabria, Carbajales de Alba, Corrales del Vino, Santibañez de Vidriales, Tábara y Villalpando pasan a Fase 1.",
       },
       1: {
         dia: 18,
@@ -804,6 +832,7 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info: "Torquemada pasa a Fase 1.",
       },
       1: {
         dia: 18,
@@ -822,6 +851,7 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info: "Muñico pasa a Fase 1.",
       },
       1: {
         dia: 18,
@@ -876,6 +906,7 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info: "San Pedro Manrique pasa a Fase 1.",
       },
       1: {
         dia: 18,

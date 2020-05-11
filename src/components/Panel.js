@@ -3,6 +3,7 @@ import Activity from "./Activity";
 import City from "./City";
 import CurrentPhase from "./CurrentPhase";
 import Modal from "./Modal";
+import Resources from "./Resources";
 
 class Panel extends React.Component {
   constructor(props) {
@@ -31,9 +32,18 @@ class Panel extends React.Component {
   }
 
   render() {
-    const { month, date, day, phase, activities, city, getCity } = this.props;
+    const {
+      month,
+      date,
+      day,
+      phase,
+      activities,
+      city,
+      getCity,
+      isRefsOpen,
+    } = this.props;
     const { id } = this.state;
-    console.log("PANEL", activities);
+
     return (
       <div className="panel">
         <City getCity={getCity} city={city} />
@@ -50,6 +60,11 @@ class Panel extends React.Component {
           activities={activities}
           isOpen={this.isModalOpen}
           modalHandler={this.modalHandler}
+        />
+        <Resources
+          isRefsOpen={isRefsOpen}
+          showRR={this.showRR}
+          closeRR={this.closeRR}
         />
       </div>
     );

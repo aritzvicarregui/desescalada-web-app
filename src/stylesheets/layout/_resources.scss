@@ -1,0 +1,83 @@
+.hidden {
+  display: none;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 850;
+
+  .resources {
+    display: none;
+
+    &.resources--is-open {
+      width: 80%;
+      position: absolute;
+      padding: 5%;
+      display: grid;
+      grid-template-rows: 40px 20px 1fr 30px;
+      grid-template-columns: 15px 1fr 10px;
+      top: 5%;
+      bottom: 5%;
+      left: 10%;
+      right: 10%;
+      background-color: $colorLvl1;
+      opacity: 100;
+      z-index: 950;
+    }
+    .closeButton {
+      width: 40px;
+      height: 15px;
+      grid-row: 1;
+      grid-column: 1;
+      place-self: center;
+      border-radius: 6px;
+      border: none;
+      justify-self: start;
+      background: url(../../images/atras.svg) no-repeat;
+      background-size: contain;
+
+      @include forTablet {
+        width: 50px;
+        height: 20px;
+        grid-column: 2;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      font-size: $fontH3;
+      grid-row: 1;
+      grid-column: 1/-1;
+      text-transform: capitalize;
+      font-weight: bolder;
+      place-self: center;
+      color: #2c7695;
+
+      @include forTablet {
+        font-size: $fontH5;
+      }
+    }
+
+    .refsList {
+      grid-row: 2;
+      grid-column: 2/4;
+      list-style-type: decimal;
+      font-size: $fontA;
+
+      li {
+        margin-top: 5%;
+        font-size: $fontA;
+
+        a {
+          text-decoration: none;
+          color: rgb(0, 26, 255);
+          font-size: $fontA;
+        }
+      }
+    }
+  }
+}

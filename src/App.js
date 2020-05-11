@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "./components/Main";
+import Panel from "./components/Panel";
 import CurrentDay from "./components/CurrentDay";
 import data from "./services/data";
 import data2 from "./services/data2";
@@ -21,13 +21,20 @@ class App extends React.Component {
       phase: "--",
       city: "",
       activities: [],
+      isRefsOpen: false,
     };
 
     this.getCity = this.getCity.bind(this);
+    this.showRR = this.showRR.bind(this);
+    this.closeRR = this.closeRR.bind(this);
   }
 
   componentDidUpdate() {
     localStorage.setItem("currentPhase", JSON.stringify(this.state.phase));
+    localStorage.setItem(
+      "currentActivities",
+      JSON.stringify(this.state.activities)
+    );
     localStorage.setItem("currentCity", JSON.stringify(this.state.city));
   }
 
@@ -35,13 +42,19 @@ class App extends React.Component {
     const { month, day } = this.state;
     const phaseInfo = JSON.parse(localStorage.getItem("currentPhase"));
     const cityInfo = JSON.parse(localStorage.getItem("currentCity"));
+    const activitiesInfo = JSON.parse(
+      localStorage.getItem("currentActivities")
+    );
+
     if (
       localStorage.getItem("currentPhase") &&
-      localStorage.getItem("currentCity")
+      localStorage.getItem("currentCity") &&
+      localStorage.getItem("currentActivities")
     ) {
       this.setState({
         phase: phaseInfo,
         city: cityInfo,
+        activities: activitiesInfo,
       });
     }
 
@@ -93,43 +106,85 @@ class App extends React.Component {
     const arrays = Object.entries(resultsb);
     const result = arrays.find((array) => array[0] === value);
     const activity = Object.entries(result[1]);
-    const activityList = Object.entries(results[0]);
-    console.log("APP", activityList[1][1]);
+    const activityList = Object.entries(results);
+    console.log("activities:", activityList[0][1].actividades);
+
     if (
       date >= activity[0][1].dia &&
-      date <= activity[1][1].dia &&
+      date < activity[1][1].dia &&
       month === activity[0][1].mes
     ) {
-      this.setState({ city: value, phase: 0, activities: activityList[1][1] });
+      this.setState({
+        city: value,
+        phase: 0,
+        activities: activityList[0][1].actividades,
+      });
     } else if (
       date >= activity[1][1].dia &&
-      date <= activity[2][1].dia &&
+      date < activity[2][1].dia &&
       month === activity[1][1].mes
     ) {
-      this.setState({ city: value, phase: 1, activities: activityList[1][1] });
+      this.setState({
+        city: value,
+        phase: 1,
+        activities: activityList[1][1].actividades,
+      });
     } else if (
       date >= activity[2][1].dia &&
-      date <= activity[3][1].dia &&
+      date < activity[3][1].dia &&
       month === activity[2][1].mes
     ) {
-      this.setState({ city: value, phase: 2, activities: activityList[1][1] });
+      this.setState({
+        city: value,
+        phase: 2,
+        activities: activityList[2][1].actividades,
+      });
     } else if (
       date >= activity[3][1].dia &&
-      date <= 31 &&
+      date < 31 &&
       month === activity[3][1].mes
     ) {
-      this.setState({ city: value, phase: 3, activities: activityList[1][1] });
+      this.setState({
+        city: value,
+        phase: 3,
+        activities: activityList[3][1].actividades,
+      });
     } else {
       this.setState({ city: value, phase: 4, activities: "nueva normalidad" });
     }
   }
 
+  showRR() {
+    this.setState((prevState) => {
+      return {
+        isRefsOpen: !prevState.isRefsOpen,
+      };
+    });
+  }
+
+  closeRR() {
+    this.setState((prevState) => {
+      return {
+        isRefsOpen: !prevState.isRefsOpen,
+      };
+    });
+  }
+
   render() {
-    const { year, month, date, day, phase, activities, city } = this.state;
+    const {
+      year,
+      month,
+      date,
+      day,
+      phase,
+      activities,
+      city,
+      isRefsOpen,
+    } = this.state;
     return (
       <div className="App">
         <CurrentDay month={month} date={date} day={day} year={year} />
-        <Main
+        <Panel
           month={month}
           date={date}
           day={day}
@@ -137,8 +192,15 @@ class App extends React.Component {
           city={city}
           activities={activities}
           getCity={this.getCity}
+          showRR={this.showRR}
+          closeRR={this.closeRR}
+          isRefsOpen={isRefsOpen}
         />
-        <Footer />
+        <Footer
+          isRefsOpen={isRefsOpen}
+          showRR={this.showRR}
+          closeRR={this.closeRR}
+        />
       </div>
     );
   }

@@ -44,7 +44,7 @@ const phases = [
   },
   {
     name: "uno",
-    activities: {
+    actividades: {
       ceremonias: {
         cultos: "si",
         bodas: null,
@@ -92,7 +92,7 @@ const phases = [
   },
   {
     name: "dos",
-    activities: {
+    actividades: {
       ceremonias: {
         cultos: "si",
         bodas: "si",
@@ -141,7 +141,7 @@ const phases = [
   },
   {
     name: "tres",
-    activities: {
+    actividades: {
       ceremonias: {
         cultos: "si",
         bodas: "si",
@@ -181,6 +181,10 @@ const phases = [
         funerales: "si",
       },
     },
+  },
+  {
+    name: "cuatro",
+    info: "nueva normalidad",
   },
 ];
 

@@ -8,13 +8,11 @@ const Modal = (props) => {
     evt.preventDefault();
     props.modalHandler();
   };
-  console.log("MODAL", info, id);
 
   const showInfo = () => {
     for (const [key, value] of Object.entries(info)) {
-      console.log("KEY", key, "VALUE", value);
       if (value[0] === id) {
-        return <Text value={value[1]} />;
+        return <Text value={value[1]} key={key} />;
       }
     }
   };
