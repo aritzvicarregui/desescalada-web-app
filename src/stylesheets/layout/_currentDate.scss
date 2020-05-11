@@ -1,14 +1,18 @@
 .currentDate {
   grid-row: 1/3;
-  grid-column: 2/12;
+  grid-column: 2/14;
   background-image: linear-gradient(5deg, $colorBgHeaderDark, $colorIcons);
   border: none;
-  border-radius: 0px 0px 0px 20px;
+  border-radius: 0px 0px 40px 40px;
   display: grid;
   grid-template-rows: 2;
   grid-template-rows: repeat(5, 1fr);
   text-align: center;
   align-items: end;
+
+  @include forTablet {
+    background-image: linear-gradient(5deg, $colorIcons, $colorBgHeaderDark);
+  }
 
   .day {
     grid-row: 3/5;
@@ -17,6 +21,11 @@
     font-size: $fontH1;
     font-weight: normal;
     color: $colorBgDefault;
+
+    @include forTablet {
+      grid-row: 3;
+      font-size: $fontTH1;
+    }
   }
 
   .date {
@@ -26,5 +35,10 @@
     color: $colorBgDefault;
     text-transform: capitalize;
     padding-bottom: 2%;
+
+    @include forTablet {
+      grid-row: 4/6;
+      font-size: $fontTH2;
+    }
   }
 }

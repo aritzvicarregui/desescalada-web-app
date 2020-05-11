@@ -1,10 +1,14 @@
 .activities {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 5%;
   list-style: none;
   text-align: center;
+
+  @include forTablet {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   .activity {
     border: none;
@@ -19,6 +23,9 @@
     z-index: 800;
     transition: 300ms ease;
 
+    @include forTablet {
+      padding: 10%;
+    }
     &:hover {
       transform: scale(1.1);
     }
@@ -31,13 +38,29 @@
       font-size: $fontH4;
       font-weight: bold;
       letter-spacing: 1px;
+
+      @include forTablet {
+        font-size: $fontTH4;
+        grid-column: 1/-1;
+        grid-row: 5/6;
+      }
     }
     .img {
-      grid-column: 3/5;
+      grid-column: 3/-1;
       grid-row: 3/7;
       width: 50px;
       height: 50px;
       padding-right: 3px;
+      justify-self: right;
+
+      @include forTablet {
+        grid-row: 1/5;
+        grid-column: 1/-1;
+        width: 65px;
+        height: 65px;
+        padding-right: 0px;
+        justify-self: center;
+      }
     }
   }
 }

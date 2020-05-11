@@ -4,6 +4,7 @@ import CurrentDay from "./components/CurrentDay";
 import data from "./services/data";
 import data2 from "./services/data2";
 import "./stylesheets/App.scss";
+import Footer from "./components/Footer";
 
 class App extends React.Component {
   constructor(props) {
@@ -137,6 +138,7 @@ class App extends React.Component {
           activities={activities}
           getCity={this.getCity}
         />
+        <Footer />
       </div>
     );
   }

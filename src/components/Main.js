@@ -1,6 +1,5 @@
 import React from "react";
 import Panel from "./Panel";
-import PhasesButton from "./PhasesButton";
 
 const Main = (props) => {
   const { month, date, day, phase, city, getCity, activities } = props;
@@ -16,7 +15,6 @@ const Main = (props) => {
         city={city}
         getCity={getCity}
       />
-      <PhasesButton />
     </React.Fragment>
   );
 };
