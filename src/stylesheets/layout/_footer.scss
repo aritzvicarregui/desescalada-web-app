@@ -19,7 +19,7 @@
     grid-column: 2 / span 5;
     background-image: none;
     background-color: $colorBgHeaderDark;
-    border-radius: 0px;
+    border-radius: 6px 6px 0px 0px;
   }
   &:hover {
     transform: scale(1.1);
