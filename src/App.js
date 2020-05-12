@@ -21,11 +21,12 @@ class App extends React.Component {
       phase: "--",
       city: "",
       activities: [],
+      other: "",
       isRefsOpen: false,
     };
 
     this.getCity = this.getCity.bind(this);
-    this.showRR = this.showRR.bind(this);
+    this.openRR = this.openRR.bind(this);
     this.closeRR = this.closeRR.bind(this);
   }
 
@@ -36,6 +37,7 @@ class App extends React.Component {
       JSON.stringify(this.state.activities)
     );
     localStorage.setItem("currentCity", JSON.stringify(this.state.city));
+    localStorage.setItem("otherInfo", JSON.stringify(this.state.other));
   }
 
   componentDidMount() {
@@ -45,16 +47,19 @@ class App extends React.Component {
     const activitiesInfo = JSON.parse(
       localStorage.getItem("currentActivities")
     );
+    const otherInfo = JSON.parse(localStorage.getItem("otherInfo"));
 
     if (
       localStorage.getItem("currentPhase") &&
       localStorage.getItem("currentCity") &&
-      localStorage.getItem("currentActivities")
+      localStorage.getItem("currentActivities") &&
+      localStorage.getItem("otherInfo")
     ) {
       this.setState({
         phase: phaseInfo,
         city: cityInfo,
         activities: activitiesInfo,
+        other: otherInfo,
       });
     }
 
@@ -152,9 +157,15 @@ class App extends React.Component {
     } else {
       this.setState({ city: value, phase: 4, activities: "nueva normalidad" });
     }
+
+    if (activity[0][1].info !== undefined) {
+      this.setState({ other: activity[0][1].info });
+    } else {
+      this.setState({ other: "" });
+    }
   }
 
-  showRR() {
+  openRR() {
     this.setState((prevState) => {
       return {
         isRefsOpen: !prevState.isRefsOpen,
@@ -179,6 +190,7 @@ class App extends React.Component {
       phase,
       activities,
       city,
+      other,
       isRefsOpen,
     } = this.state;
     return (
@@ -192,13 +204,14 @@ class App extends React.Component {
           city={city}
           activities={activities}
           getCity={this.getCity}
-          showRR={this.showRR}
-          closeRR={this.closeRR}
+          other={other}
           isRefsOpen={isRefsOpen}
+          openRR={this.openRR}
+          closeRR={this.closeRR}
         />
         <Footer
           isRefsOpen={isRefsOpen}
-          showRR={this.showRR}
+          openRR={this.openRR}
           closeRR={this.closeRR}
         />
       </div>

@@ -7,7 +7,7 @@ const phases = [
         bodas: null,
       },
       comercios: {
-        pequeños: "si",
+        comercios: "si",
         mercadillos: null,
         cc: null,
         texto:
@@ -51,12 +51,12 @@ const phases = [
         texto: "En lugares de culto : aforo limitado al 30%.",
       },
       comercios: {
-        pequeños: "si",
+        comercios: "si",
         mercadillos: "si",
         cc: null,
         texto: "Mercadillos: aforo limitado al 25%.",
       },
-      hosteleria: {
+      hostelería: {
         takeaway: "si",
         enlocal: null,
         terrazas: "si",
@@ -77,7 +77,7 @@ const phases = [
         bibliotecas: "si",
         texto: "Apertura de museos: aforo limitado al 33%.",
       },
-      eventos: {
+      ocio: {
         cine: null,
         espectáculos: "si",
         exteriores: "si",
@@ -100,13 +100,13 @@ const phases = [
           "En lugares de culto: aforo limitado al 50%. Bodas: aforo limitado a consultar.",
       },
       comercios: {
-        pequeños: "si",
+        comercios: "si",
         mercadillos: "si",
         cc: "si",
         texto:
           "Mercadillos: aforo limitado al 33%. Apertura de centros comerciales, salvo zonas comunes o áreas recreativas: aforo limitado al 40%.",
       },
-      hosteleria: {
+      hostelería: {
         takeaway: "si",
         enlocal: "si",
         terrazas: "si",
@@ -127,7 +127,7 @@ const phases = [
         bibliotecas: "si",
         texto: "Apertura de bibliotecas limitado al servicio de préstamo.",
       },
-      eventos: {
+      ocio: {
         cine: "si",
         espectáculos: "si",
         exteriores: "si",
@@ -147,13 +147,13 @@ const phases = [
         bodas: "si",
       },
       comercios: {
-        pequeños: "si",
+        comercios: "si",
         mercadillos: "si",
         cc: "si",
         texto:
           "Apertura de zonas comunes y recreativas en Centros Comerciales: aforo limitado al 50%. Mercadillo: aforo limitado al 50%.",
       },
-      hosteleria: {
+      hostelería: {
         takeaway: "si",
         enlocal: "si",
         terrazas: "si",
@@ -167,11 +167,11 @@ const phases = [
         profesional: "si",
         competiciones: "si",
       },
-      culture: {
+      cultura: {
         museos: "si",
         bibliotecas: "si",
       },
-      eventos: {
+      ocio: {
         cine: "si",
         espectáculos: "si",
         exteriores: "si",

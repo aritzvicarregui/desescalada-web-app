@@ -13,7 +13,6 @@ class Panel extends React.Component {
       isModalOpen: false,
       id: "",
     };
-
     this.modalHandler = this.modalHandler.bind(this);
     this.displayInfo = this.displayInfo.bind(this);
   }
@@ -41,6 +40,7 @@ class Panel extends React.Component {
       city,
       getCity,
       isRefsOpen,
+      other,
     } = this.props;
     const { id } = this.state;
 
@@ -57,14 +57,15 @@ class Panel extends React.Component {
         <Modal
           id={id}
           phase={phase}
+          other={other}
           activities={activities}
           isOpen={this.isModalOpen}
           modalHandler={this.modalHandler}
         />
         <Resources
           isRefsOpen={isRefsOpen}
-          showRR={this.showRR}
-          closeRR={this.closeRR}
+          openRR={this.props.openRR}
+          closeRR={this.props.closeRR}
         />
       </div>
     );

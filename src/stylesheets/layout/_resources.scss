@@ -1,7 +1,7 @@
 .hidden {
   display: none;
 }
-.overlay {
+.backlay {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -27,18 +27,26 @@
       background-color: $colorLvl1;
       opacity: 100;
       z-index: 950;
+
+      @include forPc {
+        width: 60%;
+        top: 10%;
+        bottom: 10%;
+        left: 20%;
+        right: 20%;
+      }
     }
     .closeButton {
       width: 40px;
       height: 15px;
       grid-row: 1;
       grid-column: 1;
+      background: url(../../images/atras.svg) no-repeat;
+      background-size: contain;
       place-self: center;
       border-radius: 6px;
       border: none;
       justify-self: start;
-      background: url(../../images/atras.svg) no-repeat;
-      background-size: contain;
 
       @include forTablet {
         width: 50px;
@@ -67,6 +75,12 @@
       grid-column: 2/4;
       list-style-type: decimal;
       font-size: $fontA;
+
+      @include forPc {
+        padding: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
 
       li {
         margin-top: 5%;

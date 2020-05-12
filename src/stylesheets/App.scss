@@ -23,4 +23,8 @@
     padding: 0% 10%;
     grid-template-rows: 5% 15% 3% 67% 10%;
   }
+
+  @include forPc {
+    grid-template-rows: 1% 18% 1fr 15%;
+  }
 }

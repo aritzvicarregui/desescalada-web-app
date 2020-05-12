@@ -11,6 +11,15 @@
     grid-template-rows: 40px 1fr;
   }
 
+  @include forPc {
+    grid-row: 2 / span 3;
+    grid-column: 2/14;
+    grid-template-rows: 10% 10% repeat(4, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 0%;
+    row-gap: 0%;
+  }
+
   .cityForm {
     grid-row: 1/2;
     grid-column: 1/2;
@@ -19,13 +28,25 @@
     text-transform: capitalize;
     padding-left: 8px;
     outline: none;
-
-    &:focus {
-      border: 2px solid $colorReturnButton;
-    }
+    font-size: $fontP;
 
     @include forTablet {
       font-size: $fontH3;
+    }
+
+    @include forPc {
+      padding-left: 4%;
+      margin-top: 5%;
+      grid-row: 1;
+      grid-column: 6 / 10;
+      border: none;
+      border-bottom: 2px solid $colorBgHeaderDark;
+      border-radius: 0px;
+    }
+
+    &:focus,
+    &:active {
+      border: 2px solid $colorReturnButton;
     }
   }
 
@@ -39,8 +60,18 @@
     padding: 4%;
     justify-items: center;
 
+    @include forPc {
+      grid-row: 2;
+      grid-column: 6/10;
+      margin-bottom: 5%;
+      border-radius: 0px;
+      border: none;
+      border-bottom: 2px solid $colorBgHeaderDark;
+      background-color: $colorBgDefault;
+    }
+
     h3 {
-      font-size: $fontH3;
+      font-size: $fontH4;
       font-weight: normal;
       text-align: center;
       color: $colorBgDefault;
@@ -48,11 +79,22 @@
       @include forTablet {
         font-size: $fontH2;
       }
+
+      @include forPc {
+        text-align: left;
+        color: $colorBgHeaderDark;
+      }
     }
   }
 
   .container {
     grid-column: 1/-1;
     grid-row: 2;
+
+    @include forPc {
+      grid-column: 1/5;
+      grid-row: 3/-1;
+      padding: 5%;
+    }
   }
 }

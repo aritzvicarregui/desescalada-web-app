@@ -12,7 +12,7 @@ const Modal = (props) => {
   const showInfo = () => {
     for (const [key, value] of Object.entries(info)) {
       if (value[0] === id) {
-        return <Text value={value[1]} key={key} />;
+        return <Text value={value[1]} key={key} other={props.other} />;
       }
     }
   };

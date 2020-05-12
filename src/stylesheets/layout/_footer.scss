@@ -15,6 +15,12 @@
   text-align: center;
   transition: 300ms ease;
 
+  @include forPc {
+    grid-column: 2 / span 5;
+    background-image: none;
+    background-color: $colorBgHeaderDark;
+    border-radius: 0px;
+  }
   &:hover {
     transform: scale(1.1);
   }

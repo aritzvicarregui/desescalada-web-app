@@ -2,8 +2,9 @@ import React from "react";
 
 const Text = (props) => {
   const value = props.value;
+
   const val = Object.entries(value);
-  console.log(val);
+
   return (
     <ul className="infoList">
       {val.map((obj, index) => (
@@ -48,6 +49,9 @@ const Text = (props) => {
           </p>
         </li>
       ))}
+      <li className={props.other !== "" ? "otherInfo" : "noInfo"}>
+        {props.other !== "" ? props.other : ""}
+      </li>
     </ul>
   );
 };
