@@ -9,8 +9,8 @@
 
   @include forPc {
     position: relative;
-    grid-row: 3 / span 5;
-    grid-column: 6 / span 7;
+    grid-row: 3 / 7;
+    grid-column: 7 / -1;
     background-color: rgba(0, 0, 0, 0);
   }
 }
@@ -42,7 +42,7 @@
       top: 0;
       left: 0;
       right: 0;
-      margin: 3%;
+      margin: 2%;
     }
 
     .closeButton {

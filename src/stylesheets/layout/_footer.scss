@@ -13,7 +13,6 @@
   padding: 15px 5% 15px 5%;
   z-index: 800;
   text-align: center;
-  transition: 300ms ease;
 
   @include forPc {
     grid-column: 2 / span 5;
@@ -21,9 +20,6 @@
     background-image: none;
     background-color: $colorBgHeaderDark;
     border-radius: 6px 6px 0px 0px;
-  }
-  &:hover {
-    transform: scale(1.1);
   }
 
   h6 {
@@ -35,6 +31,11 @@
 
     @include forTablet {
       font-size: $fontTH6;
+    }
+
+    &:hover,
+    &:active {
+      text-decoration: underline;
     }
   }
 
@@ -63,6 +64,11 @@
 
     @include forTablet {
       font-size: $fontH4;
+    }
+
+    &:hover,
+    &:active {
+      text-decoration: underline;
     }
   }
 }

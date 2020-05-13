@@ -22,7 +22,7 @@
 
   .cityForm {
     grid-row: 1/2;
-    grid-column: 1/2;
+    grid-column: 1/3;
     border-radius: 6px 20px 0px 20px;
     border: 2px solid $colorBgHeaderDark;
     text-transform: capitalize;
@@ -53,7 +53,7 @@
 
   .currentPhase {
     grid-row: 1;
-    grid-column: 2/4;
+    grid-column: 3/4;
     border: none;
     border-radius: 0px 20px 6px 20px;
     background-color: $colorBgHeaderDark;
@@ -72,8 +72,9 @@
     }
 
     h3 {
-      font-size: $fontH4;
-      font-weight: normal;
+      padding-top: 3px;
+      font-size: $fontP;
+      font-weight: bold;
       text-align: center;
       color: $colorBgDefault;
 
