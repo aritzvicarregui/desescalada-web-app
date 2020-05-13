@@ -7,13 +7,13 @@ const Footer = (props) => {
   };
 
   return (
-    <div className="footer">
+    <footer className="footer">
       <h6 onClick={showRefs}>Referencias y recursos</h6>
       <a href="https://www.linkedin.com/in/mgraceshyubarcel/" className="reg">
         M Grace® | 2020
       </a>
       <span className="refsIcon" onClick={showRefs}></span>
-    </div>
+    </footer>
   );
 };
 

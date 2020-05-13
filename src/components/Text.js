@@ -2,7 +2,6 @@ import React from "react";
 
 const Text = (props) => {
   const value = props.value;
-
   const val = Object.entries(value);
 
   return (
@@ -27,11 +26,13 @@ const Text = (props) => {
                 : `icon  ${obj[0]}`
             }
           ></span>
+
           <span
             className={
               obj[0] === "texto" ? "empty" : obj[1] !== null ? "yes" : "no"
             }
           ></span>
+
           <p className={obj[0] === "texto" ? "infoText text" : "infoText"}>
             {obj[0] === "cc"
               ? "centros comerciales :"
@@ -49,6 +50,7 @@ const Text = (props) => {
           </p>
         </li>
       ))}
+
       <li className={props.other !== "" ? "otherInfo" : "noInfo"}>
         {props.other !== "" ? props.other : ""}
       </li>
