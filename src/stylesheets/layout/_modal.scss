@@ -1,3 +1,40 @@
+.hidden {
+  display: none;
+}
+.no-content {
+  display: none;
+}
+
+@include forPc {
+  .no-content {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 65%;
+    width: 100%;
+    border: 2px;
+    z-index: 850;
+    margin-top: 5%;
+    grid-row: 3;
+    grid-column: 7 / 13;
+    border-radius: 6px;
+    border: 2px solid rgb(255, 145, 145);
+    background-color: $colorLvl2;
+    box-shadow: 0 0 5px rgb(255, 0, 0), inset 0 0 5px red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    text-align: center;
+    color: $colorBgHeaderDark;
+    font-weight: bold;
+  }
+  &.hidden {
+    display: none;
+  }
+}
+
 .overlay {
   position: absolute;
   top: 0%;
@@ -10,10 +47,11 @@
   @include forPc {
     position: relative;
     grid-row: 3 / 7;
-    grid-column: 7 / -1;
+    grid-column: 6 / -1;
     background-color: rgba(0, 0, 0, 0);
   }
 }
+
 .modal {
   opacity: 0;
 

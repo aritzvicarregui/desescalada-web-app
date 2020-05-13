@@ -18,13 +18,21 @@ const Modal = (props) => {
   };
 
   return (
-    <div className={id !== "" ? "overlay" : "modal"} onClick={onClose}>
-      <div className={id !== "" ? "modal modal--is-open" : "modal"}>
-        <div className="closeButton" onClick={onClose}></div>
-        <h5>{id}</h5>
-        <div className="content">{showInfo()}</div>
+    <React.Fragment>
+      <div className={id === "" ? "no-content" : "no-content hidden"}>
+        <p className={id === "" ? "no-text" : "hidden"}>
+          Para visualizar contenido, primero selecciona provincia. Luego explore
+          por actividad
+        </p>
       </div>
-    </div>
+      <div className={id !== "" ? "overlay" : "modal"} onClick={onClose}>
+        <div className={id !== "" ? "modal modal--is-open" : "modal"}>
+          <div className="closeButton" onClick={onClose}></div>
+          <h5>{id}</h5>
+          <div className="content">{showInfo()}</div>
+        </div>
+      </div>
+    </React.Fragment>
   );
 };
 

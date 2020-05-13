@@ -14,12 +14,10 @@
   }
 
   @include forPc {
-    background-image: none;
-    background-color: $colorBgHeaderDark;
     grid-row: 2/3;
     grid-column: 2 / span 5;
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 5% repeat(2, 1fr) 5%;
     border-radius: 6px;
     margin-top: 3%;
     padding-top: 3%;
@@ -39,7 +37,7 @@
     }
 
     @include forPc {
-      grid-column: 1;
+      grid-column: 2;
       grid-row: 1;
       font-size: $fontH1;
       color: $colorLvl2;
@@ -64,7 +62,7 @@
 
     @include forPc {
       grid-row: 1;
-      grid-column: 2;
+      grid-column: 3;
       font-size: $fontH5;
       color: $colorLvl2;
       padding-bottom: 0;
