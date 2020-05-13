@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> <img src='https://i.postimg.cc/bNnWk8Kr/Captura-de-pantalla-2020-05-12-a-las-21-41-15.png' alt='heading photo' width="300" > </p>
 
-## Available Scripts
+# <div align="center">  COVID-19 Desescalada en España 🇪🇦 </div>
+<p align="center">👩🏻‍💻Autor: Mercy Grace</p><br>
+<br>
 
-In the project directory, you can run:
+## 🖥️ 🔹 💻 🔹 📱 Preview:
 
-### `npm start`
+![PC preview](https://i.postimg.cc/m2swWt4R/for-pc.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Tablet and mobile preview](https://i.postimg.cc/6qr5sHXr/fortb-mobile.png)
+<br>
+<br>
+<br>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 🏘 🏃🏽‍♀️ 🚨 Uso:
 
-### `npm test`
+Debido a la situación actual de confinamiento por la pandemia del coronavirus, el Gobierno ha puesto en marcha un plan de desescalada en 4 fases que será distinta según el distrito sanitario.<br>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Desescalada web app_ ha sido desarrollada para facilitar información al usuario. Ésta dependerá de la fecha en la que se encuentre y la ciudad seleccionada.<br>
+<br>
+<br>
+<br>
 
-### `npm run build`
+## 📚📰🔍  Referencias y Recursos:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔗 [Plan para la transición hacia una nueva normalidad.](https://www.lamoncloa.gob.es/consejodeministros/resumenes/Documents/2020/PlanTransicionNuevaNormalidad.pdf) Ministerio de Sanidad(España)| Consultado el 10 de mayo de 2020.<br><br>
+🔗 [Guía visual de la desescalada: fechas, fases y todas las claves de la vuelta a la normalidad.](https://elpais.com/sociedad/2020/05/07/actualidad/1588852756_386639.html) El País | Consultado el 10 de mayo de 2020.<br><br>
+🔗 [COMPARA LOS PLANES DE DESESCALADA.](https://www.rtve.es/noticias/comparador-desescalada-coronavirus-paises/) RTVE | Consultado el 10 de mayo de 2020.<br><br>
+🔗 [Mapa de provincias que pasan a la fase 1 de desescalada del coronavirus.](https://amp.antena3.com/noticias/sociedad/mapa-provincias-que-pasan-fase-desescalada-coronavirus_202005085eb5ab514f718700015ecef2.html) Antena3 Noticias | Consultado el 8 de mayo de 2020.<br><br>
+🔗 [El mapa de la desescalada en España: ¿en qué fase está tu provincia?.](https://www.rtve.es/noticias/20200509/mapa-desescalada-espana-fase-esta-tu-provincia/2013477.shtml) RTVE | Consultado el 11 de mayo de 2020.<br>
+🔗 Iconos diseñados por [Freepik](https://www.flaticon.es/autores/freepik) from www.flaticon.es<br><br>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
