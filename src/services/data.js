@@ -2,6 +2,11 @@ const phases = [
   {
     name: "cero",
     actividades: {
+      horarios: {
+        a: "de 12:00 - 19:00",
+        b: "de 10:00 - 12:00 // de 19:00 - 20:00",
+        c: "de 6:00 - 10:00 // de 20:00 - 23:00",
+      },
       ceremonias: {
         cultos: null,
         bodas: null,
@@ -14,8 +19,7 @@ const phases = [
         cc: null,
       },
       hostelería: {
-        takeaway:
-          "Apertura de pequeños locales: atención  individual y con cita previa.",
+        takeaway: "Atención individual y con cita previa.",
 
         enlocal: null,
         terrazas: null,
@@ -23,7 +27,8 @@ const phases = [
         hoteles: null,
       },
       deporte: {
-        individual: "Sin abandonar el municipio de residencia",
+        individual:
+          "Que no requiera de contacto con terceros y sin abandonar el municipio de residencia. Paseos.",
         profesional: null,
         competiciones: null,
       },
@@ -70,8 +75,7 @@ const phases = [
       },
       deporte: {
         individual:
-          "Se podrán realizar actividades que no impliquen contacto físico ni uso de vestuarios",
-
+          "Se podrán realizar actividades que no impliquen contacto físico ni uso de vestuarios y sin abandonar el municipio de residencia.",
         profesional: "Apertura de centros deportivos de alto rendimiento.",
 
         competiciones: null,

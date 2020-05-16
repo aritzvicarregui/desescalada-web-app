@@ -7,27 +7,61 @@ const Text = (props) => {
   return (
     <ul className="infoList">
       {val.map((obj, index) => (
-        <li key={index} className={obj[1] !== null ? "li enable" : "li"}>
+        <li
+          key={index}
+          className={
+            obj[0] === "a" || obj[0] === "b" || obj[0] === "c"
+              ? "li horarios"
+              : obj[1] !== null
+              ? "li enable"
+              : "li"
+          }
+        >
           <span
-            className={obj[1] !== null ? `icon ${obj[0]}` : `icon  ${obj[0]}`}
+            className={
+              obj[0] === "a"
+                ? "icon a"
+                : obj[0] === "b"
+                ? "icon b"
+                : obj[0] === "c"
+                ? "icon c"
+                : obj[1] !== null
+                ? `icon ${obj[0]}`
+                : `icon  ${obj[0]}`
+            }
           ></span>
 
-          <span className={obj[1] !== null ? "yes" : "no"}></span>
+          <span
+            className={
+              obj[0] === "a" || obj[0] === "b" || obj[0] === "c"
+                ? "none"
+                : obj[1] !== null
+                ? "yes"
+                : "no"
+            }
+          ></span>
 
-          <p className={"infoText"}>
-            {obj[0] === "cc"
+          <p className="infoTitle">
+            {obj[0] === "a"
+              ? "Menores de 14 años :"
+              : obj[0] === "b"
+              ? "Mayores de 70 o personas dependientes con cuidador :"
+              : obj[0] === "c"
+              ? "Mayores de 14 años :"
+              : obj[0] === "cc"
               ? "centros comerciales :"
               : obj[0] === "takeaway"
               ? "comida para llevar :"
               : obj[0] === "enlocal"
               ? "servicio de mesa :"
               : obj[0] === "profesional"
-              ? "de alto rendimiento :"
+              ? "alto rendimiento :"
               : obj[0] === "texto"
               ? "+ información :"
               : `${obj[0]} :`}
             <br />
-
+          </p>
+          <p className="infoText">
             {obj[1] === null ? "no permitido" : obj[1]}
           </p>
         </li>

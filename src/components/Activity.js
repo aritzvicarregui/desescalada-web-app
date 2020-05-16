@@ -6,6 +6,7 @@ import museum from "../images/museum.svg";
 import catering from "../images/catering.svg";
 import shopping from "../images/shopping.svg";
 import ocio from "../images/ocio.svg";
+import horarios from "../images/horarios.svg";
 
 const Activity = (props) => {
   const infoHandler = (evt) => {
@@ -16,6 +17,10 @@ const Activity = (props) => {
   return (
     <div className="container">
       <ul className="activities">
+        <li className="activity" id="horarios" onClick={infoHandler}>
+          <img src={horarios} alt="horarios" className="img" />
+          <h4>Franjas Horarias</h4>
+        </li>
         <li className="activity" id="ceremonias" onClick={infoHandler}>
           <img src={church} alt="ceremonias religiosas" className="img" />
           <h4>Ceremonias</h4>

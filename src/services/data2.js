@@ -6,7 +6,7 @@ const data2 = [
         mes: "mayo",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -25,7 +25,7 @@ const data2 = [
         mes: "mayo",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -45,7 +45,7 @@ const data2 = [
         info: "Requena, Xàtiva-Ontinyent y Gandía pasan a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -83,7 +83,7 @@ const data2 = [
           "Alcoy, Dénia, La Marina Baixa, Elda, Orihuela y Torrevieja pasan a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -101,7 +101,7 @@ const data2 = [
         mes: "mayo",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -299,7 +299,7 @@ const data2 = [
         mes: "mayo",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -354,7 +354,7 @@ const data2 = [
         mes: "mayo",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -408,7 +408,7 @@ const data2 = [
         mes: "mayo",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -537,7 +537,7 @@ const data2 = [
           "Alaejos, Mayorga de Campos y Esguevillas de Esgueva pasan a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -555,7 +555,7 @@ const data2 = [
         mes: "mayo",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -574,7 +574,7 @@ const data2 = [
         info: "Truchas, Matallana de Torio y Riaño.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -593,7 +593,7 @@ const data2 = [
         info: "Alt Pirineu i Aran pasa a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -629,7 +629,7 @@ const data2 = [
         mes: "mayo",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -649,7 +649,7 @@ const data2 = [
           "Sedano, Valle de Losa, Quintanar de la Sierra, Espinosa de los Monteros, Pampliega y Valle de Mena pasan a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -687,7 +687,7 @@ const data2 = [
           "Robleda, Aldeadávila de la Ribera, Lumbrales y Miranda del Castañar pasan a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -816,7 +816,7 @@ const data2 = [
           " Alcañices, Alta Sanabria, Carbajales de Alba, Corrales del Vino, Santibañez de Vidriales, Tábara y Villalpando pasan a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -835,7 +835,7 @@ const data2 = [
         info: "Torquemada pasa a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -854,7 +854,7 @@ const data2 = [
         info: "Muñico pasa a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -872,7 +872,7 @@ const data2 = [
         mes: "mayo",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
@@ -909,7 +909,7 @@ const data2 = [
         info: "San Pedro Manrique pasa a Fase 1.",
       },
       1: {
-        dia: 18,
+        dia: 25,
         mes: "mayo",
       },
       2: {
