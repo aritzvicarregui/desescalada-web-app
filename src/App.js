@@ -112,7 +112,6 @@ class App extends React.Component {
     const result = arrays.find((array) => array[0] === value);
     const activity = Object.entries(result[1]);
     const activityList = Object.entries(results);
-    console.log("activities:", activityList[0][1].actividades);
 
     if (
       date >= activity[0][1].dia &&
@@ -193,6 +192,7 @@ class App extends React.Component {
       other,
       isRefsOpen,
     } = this.state;
+    console.log(activities);
     return (
       <div className="App">
         <CurrentDay month={month} date={date} day={day} year={year} />

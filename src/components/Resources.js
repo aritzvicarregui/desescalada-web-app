@@ -17,6 +17,16 @@ const Resources = (props) => {
         <ul className="refsList">
           <li>
             <a
+              href=" https://www.boe.es/boe/dias/2020/05/09/pdfs/BOE-A-2020-4911.pdf"
+              title="BOE Orden SND/399/2020, de 9 de mayo"
+            >
+              BOE Orden SND/399/2020, de 9 de mayo
+            </a>
+            . Ministerio de Sanidad(España) | Consultado el 9 de mayo de 2020.
+          </li>
+
+          <li>
+            <a
               href="https://www.lamoncloa.gob.es/consejodeministros/resumenes/Documents/2020/PlanTransicionNuevaNormalidad.pdf"
               title="Ministerio de Sanidad"
             >

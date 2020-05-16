@@ -75,8 +75,13 @@
         background-size: contain;
       }
 
-      &.comercios {
-        background: url(../../images/shop.svg) no-repeat;
+      &.pequeños {
+        background: url(../../images/pequeños.png) no-repeat;
+        background-size: contain;
+      }
+
+      &.grandes {
+        background: url(../../images/grandes.png) no-repeat;
         background-size: contain;
       }
 
@@ -212,5 +217,19 @@
 
   .noInfo {
     display: none;
+  }
+
+  .important {
+    margin-left: 5%;
+    margin-right: 5%;
+    list-style: none;
+    border: 1px dashed red;
+    color: $colorBgHeaderDark;
+    font-size: $fontP;
+    font-style: oblique;
+    letter-spacing: 0.5px;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
