@@ -35,6 +35,9 @@
       grid-template-columns: 1fr;
       grid-template-rows: auto;
       justify-items: center;
+      :first-letter {
+        text-transform: none;
+      }
     }
 
     &.moreInfo {
@@ -54,11 +57,21 @@
 
     .infoTitle {
       display: inline-block;
-
       text-align: left;
       padding-left: 5%;
+      padding-top: 3px;
+      padding-bottom: 3px;
       font-size: $fontP;
       font-weight: bold;
+      line-height: $lineHeight;
+      letter-spacing: 1.1px;
+    }
+
+    .timeText {
+      text-align: center;
+      padding-left: 15%;
+      padding-right: 15%;
+      font-size: $fontH4;
       line-height: $lineHeight;
       letter-spacing: 1.1px;
     }

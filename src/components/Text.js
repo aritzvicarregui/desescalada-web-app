@@ -59,9 +59,14 @@ const Text = (props) => {
               : obj[0] === "texto"
               ? "+ información :"
               : `${obj[0]} :`}
-            <br />
           </p>
-          <p className="infoText">
+          <p
+            className={
+              obj[0] === "a" || obj[0] === "b" || obj[0] === "c"
+                ? "timeText"
+                : "infoText"
+            }
+          >
             {obj[1] === null ? "no permitido" : obj[1]}
           </p>
         </li>

@@ -3,9 +3,9 @@ const phases = [
     name: "cero",
     actividades: {
       horarios: {
-        a: "de 12:00 - 19:00",
-        b: "de 10:00 - 12:00 // de 19:00 - 20:00",
-        c: "de 6:00 - 10:00 // de 20:00 - 23:00",
+        a: "de 12:00 a 19:00",
+        b: "de 10:00 a 12:00 // de 19:00 a 20:00",
+        c: "de 6:00 a 10:00 // de 20:00 a 23:00",
       },
       ceremonias: {
         cultos: null,
@@ -49,6 +49,11 @@ const phases = [
   {
     name: "uno",
     actividades: {
+      horarios: {
+        a: "de 12:00 a 19:00",
+        b: "de 10:00 a 12:00 // de 19:00 a 20:00",
+        c: "de 6:00 a 10:00 // de 20:00 a 23:00",
+      },
       ceremonias: {
         cultos: "Aforo limitado al 33%.",
         bodas: null,
