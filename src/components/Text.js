@@ -43,11 +43,11 @@ const Text = (props) => {
 
           <p className="infoTitle">
             {obj[0] === "a"
-              ? "Menores de 14 años :"
+              ? "Menores de 14 años"
               : obj[0] === "b"
-              ? "Mayores de 70 o personas dependientes con cuidador :"
+              ? "Mayores de 70 o personas dependientes con cuidador"
               : obj[0] === "c"
-              ? "Mayores de 14 años :"
+              ? "Mayores de 14 años"
               : obj[0] === "cc"
               ? "centros comerciales :"
               : obj[0] === "takeaway"
