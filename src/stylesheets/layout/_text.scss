@@ -44,13 +44,11 @@
     .infoText {
       display: inline-block;
       place-self: center;
-      text-align: center;
-
-      &.text {
-        font-size: $fontP;
-        line-height: $lineHeight;
-        letter-spacing: 1.1px;
-      }
+      text-align: left;
+      padding-left: 5%;
+      font-size: $fontP;
+      line-height: $lineHeight;
+      letter-spacing: 1.1px;
     }
 
     .icon {
