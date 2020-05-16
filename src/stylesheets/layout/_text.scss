@@ -40,6 +40,17 @@
       }
     }
 
+    &.horariosInfo {
+      padding-bottom: 3%;
+      background-color: $colorLvl1;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      justify-items: center;
+      :first-letter {
+        text-transform: none;
+      }
+    }
+
     &.moreInfo {
       color: $colorBgHeaderDark;
       background-color: $colorLvl1;
@@ -112,6 +123,11 @@
 
       &.c {
         background: url(../../images/c.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &.d {
+        background: url(../../images/ii.svg) no-repeat;
         background-size: contain;
       }
 

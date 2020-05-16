@@ -6,6 +6,8 @@ const phases = [
         a: "de 12:00 a 19:00",
         b: "de 10:00 a 12:00 // de 19:00 a 20:00",
         c: "de 6:00 a 10:00 // de 20:00 a 23:00",
+        d:
+          " con 1 persona conviviente. 1 vez al día y a no más de 1 kilómetro.",
       },
       ceremonias: {
         cultos: null,
@@ -28,7 +30,7 @@ const phases = [
       },
       deporte: {
         individual:
-          "Que no requiera de contacto con terceros y sin abandonar el municipio de residencia. Paseos.",
+          "Que no requiera de contacto con terceros y sin abandonar el municipio de residencia.",
         profesional: null,
         competiciones: null,
       },
@@ -53,6 +55,8 @@ const phases = [
         a: "de 12:00 a 19:00",
         b: "de 10:00 a 12:00 // de 19:00 a 20:00",
         c: "de 6:00 a 10:00 // de 20:00 a 23:00",
+        d:
+          " con 1 persona conviviente. 1 vez al día y a no más de 1 kilómetro.",
       },
       ceremonias: {
         cultos: "Aforo limitado al 33%.",

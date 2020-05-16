@@ -12,6 +12,8 @@ const Text = (props) => {
           className={
             obj[0] === "a" || obj[0] === "b" || obj[0] === "c"
               ? "li horarios"
+              : obj[0] === "d"
+              ? "li horariosInfo"
               : obj[1] !== null
               ? "li enable"
               : "li"
@@ -25,6 +27,8 @@ const Text = (props) => {
                 ? "icon b"
                 : obj[0] === "c"
                 ? "icon c"
+                : obj[0] === "d"
+                ? "icon d"
                 : obj[1] !== null
                 ? `icon ${obj[0]}`
                 : `icon  ${obj[0]}`
@@ -33,7 +37,10 @@ const Text = (props) => {
 
           <span
             className={
-              obj[0] === "a" || obj[0] === "b" || obj[0] === "c"
+              obj[0] === "a" ||
+              obj[0] === "b" ||
+              obj[0] === "c" ||
+              obj[0] === "d"
                 ? "none"
                 : obj[1] !== null
                 ? "yes"
@@ -48,6 +55,8 @@ const Text = (props) => {
               ? "Mayores de 70 o personas dependientes con cuidador"
               : obj[0] === "c"
               ? "Mayores de 14 años"
+              : obj[0] === "d"
+              ? "Los paseos se pueden realizar :"
               : obj[0] === "cc"
               ? "centros comerciales :"
               : obj[0] === "takeaway"
@@ -62,7 +71,10 @@ const Text = (props) => {
           </p>
           <p
             className={
-              obj[0] === "a" || obj[0] === "b" || obj[0] === "c"
+              obj[0] === "a" ||
+              obj[0] === "b" ||
+              obj[0] === "c" ||
+              obj[0] === "d"
                 ? "timeText"
                 : "infoText"
             }
