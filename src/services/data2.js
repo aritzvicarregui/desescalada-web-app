@@ -23,6 +23,8 @@ const data2 = [
       0: {
         dia: 4,
         mes: "mayo",
+        info:
+          "Alt Penedès, Baix Montseny, Catalunya Central, Garraf pasan a Fase 1.",
       },
       1: {
         dia: 25,

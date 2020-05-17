@@ -76,19 +76,18 @@ const phases = [
         cc: null,
       },
       hostelería: {
-        takeaway: "Con cita previa",
+        takeaway: "Atención individual y con cita previa.",
         enlocal: null,
         terrazas:
           "Apertura de terrazas con ciertas limitaciones: aforo hasta 30%-50%.",
         discotecas: null,
         hoteles:
-          "No se permite el uso de instalaciones de uso común, como piscinas, gimnasios o zonas de recreo.",
+          "Apertura de hoteles y alojamientos turísticos. No se permite el uso de instalaciones de uso común, como piscinas, gimnasios o zonas de recreo.",
       },
       deporte: {
         individual:
           "Se podrán realizar actividades que no impliquen contacto físico ni uso de vestuarios y sin abandonar el municipio de residencia.",
         profesional: "Apertura de centros deportivos de alto rendimiento.",
-
         competiciones: null,
       },
       cultura: {
@@ -131,10 +130,10 @@ const phases = [
           "Apertura de centros comerciales, salvo zonas comunes o áreas recreativas: aforo limitado al 40%.",
       },
       hostelería: {
-        takeaway: "si",
+        takeaway: "Atención individual y con cita previa.",
         enlocal:
           "Apertura de bares y restaurantes para consumo en local, salvo discotecas y bares de ocio nocturno. El consumo se hará en la mesa y no en la barra. Aforo limitado al 40%",
-        terrazas: "si",
+        terrazas: "Aforo limitado al 50% y máximo 10 personas por mesa.",
         discotecas: null,
         hoteles: " Apertura de zonas comunes con aforo limitado al 33%.",
       },
