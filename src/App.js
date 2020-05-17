@@ -192,7 +192,7 @@ class App extends React.Component {
       other,
       isRefsOpen,
     } = this.state;
-    console.log(activities);
+
     return (
       <div className="App">
         <CurrentDay month={month} date={date} day={day} year={year} />

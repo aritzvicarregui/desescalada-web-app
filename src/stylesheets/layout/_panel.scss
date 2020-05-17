@@ -6,6 +6,7 @@
   grid-template-columns: repeat(3, 1fr);
   column-gap: 5%;
   row-gap: 7%;
+  overflow-y: scroll;
 
   @include forTablet {
     grid-template-rows: 40px 1fr;

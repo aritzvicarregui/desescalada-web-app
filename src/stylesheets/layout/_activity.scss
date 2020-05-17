@@ -62,7 +62,8 @@
       @include forTablet {
         font-size: $fontTH4;
         grid-column: 1/-1;
-        grid-row: 5/6;
+        grid-row: 4/6;
+        margin-top: 7%;
       }
 
       @include forPc {
@@ -70,6 +71,7 @@
         grid-row: 1/-1;
         place-self: center;
         font-size: $fontH3;
+        padding-top: 0;
       }
     }
     .img {
@@ -86,7 +88,7 @@
         width: 65px;
         height: 65px;
         padding-right: 0px;
-        justify-self: center;
+        place-self: center;
       }
       @include forPc {
         width: 40px;
