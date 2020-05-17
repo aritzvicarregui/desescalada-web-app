@@ -72,16 +72,24 @@ const Resources = (props) => {
               El mapa de la desescalada en España: ¿en qué fase está tu
               provincia?
             </a>
-            . RTVE | Consultado el 11 de mayo de 2020.
+            . RTVE | Consultado el 17 de mayo de 2020.
           </li>
           <li>
-            Iconos diseñados por{" "}
+            <a
+              href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-5088"
+              title="BOE Orden SND/414/2020, de 16 de mayo"
+            >
+              BOE Orden SND/414/2020, de 16 de mayo
+            </a>
+            . Ministerio de Sanidad(España) | Consultado el 17 de mayo de 2020.
+          </li>
+          <li>
+            Iconos diseñados por
             <a href="https://www.flaticon.es/autores/freepik" title="Freepik">
               Freepik
-            </a>{" "}
-            from{" "}
+            </a>
+            from
             <a href="https://www.flaticon.es/" title="Flaticon">
-              {" "}
               www.flaticon.es
             </a>
           </li>

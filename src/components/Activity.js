@@ -15,7 +15,7 @@ const Activity = (props) => {
   };
 
   return (
-    <div className="container">
+    <nav className="container">
       <ul className="activities">
         <li className="activity" id="horarios" onClick={infoHandler}>
           <img src={horarios} alt="horarios" className="img" />
@@ -72,7 +72,7 @@ const Activity = (props) => {
           <span className={props.id === "ocio" ? "display" : "hidden"}></span>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 

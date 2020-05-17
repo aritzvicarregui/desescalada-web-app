@@ -65,8 +65,8 @@ const Text = (props) => {
               ? "servicio de mesa :"
               : obj[0] === "profesional"
               ? "alto rendimiento :"
-              : obj[0] === "texto"
-              ? "+ información :"
+              : obj[0] === "hoteles"
+              ? "hoteles y alojamientos turísticos :"
               : `${obj[0]} :`}
           </p>
           <p

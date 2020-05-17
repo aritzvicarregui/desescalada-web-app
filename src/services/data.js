@@ -3,11 +3,14 @@ const phases = [
     name: "cero",
     actividades: {
       horarios: {
-        a: "de 12:00 a 19:00",
+        a: [
+          "de 12:00 a 19:00",
+          "Deberán ir acompañados de un adulto. Como máximo 3 menores de 14 años por cada adulto.",
+        ],
         b: "de 10:00 a 12:00 // de 19:00 a 20:00",
         c: "de 6:00 a 10:00 // de 20:00 a 23:00",
         d:
-          " con 1 persona conviviente. 1 vez al día y a no más de 1 kilómetro.",
+          "📌con 1 persona conviviente   📌1 vez al día   📌máximo 1 hora   📌a no más de 1 kilómetro del domicilio",
       },
       ceremonias: {
         cultos: null,
@@ -77,7 +80,6 @@ const phases = [
         enlocal: null,
         terrazas:
           "Apertura de terrazas con ciertas limitaciones: aforo hasta 30%-50%",
-
         discotecas: null,
         hoteles:
           "No se permite el uso de instalaciones de uso común, como piscinas, gimnasios o zonas de recreo.",
@@ -90,7 +92,7 @@ const phases = [
         competiciones: null,
       },
       cultura: {
-        museos: "Apertura de museos: aforo limitado al 33%.",
+        museos: "Apertura de museos solo para visitas. Aforo limitado al 33%.",
         bibliotecas:
           "Apertura de bibliotecas para préstamo y devolución de obras, lectura en sala y para información bibliográfica y bibliotecaria",
       },
@@ -117,12 +119,13 @@ const phases = [
     name: "dos",
     actividades: {
       ceremonias: {
-        cultos: "aforo limitado al 50%.",
-        bodas: "si",
+        cultos: "Aforo limitado al 50%.",
+        bodas:
+          "Aforo limitado al 50%: al aire libre hasta 100 personas y en espacios cerrados hasta 50 personas.",
       },
       comercios: {
-        pequeños: "si",
-        grandes: "si",
+        pequeños: "Aforo limitado al 40%.",
+        grandes: "Aforo limitado al 40%.",
         mercadillos: "Mercadillos: aforo limitado al 33%.",
         cc:
           "Apertura de centros comerciales, salvo zonas comunes o áreas recreativas: aforo limitado al 40%.",
@@ -130,31 +133,35 @@ const phases = [
       hostelería: {
         takeaway: "si",
         enlocal:
-          "Apertura de restaurantes y bares para el servicio de mesas, aforo limitado al 33%",
+          "Apertura de bares y restaurantes para consumo en local, salvo discotecas y bares de ocio nocturno. El consumo se hará en la mesa y no en la barra. Aforo limitado al 40%",
         terrazas: "si",
         discotecas: null,
-        hoteles:
-          " Apertura de zonas comunes en hoteles con restricciones específicas",
+        hoteles: " Apertura de zonas comunes con aforo limitado al 33%.",
       },
       deporte: {
-        individual: "si",
+        individual:
+          "No profesional y al aire libre, en cualquier franja horaria a excepción de la comprendida entre las 10:00 a 12:00 y 19:00 a 20:00, franjas reservadas a los mayores de 70 años.",
         profesional: "si",
         competiciones:
           "Campeonatos profesionales en partidos a puerta cerrada o con aforo limitado y con posibilidad de ser retransmitidos.",
       },
       cultura: {
-        museos: "si",
-        bibliotecas: "si",
+        museos:
+          "Apertura de monumentos y otros equipammientos culturales. Aforo limitado al 33%.",
+        bibliotecas:
+          "Préstamo y devolución de obras, lectura en sala y consulta en sala con aforo limitado al 33%. Se puede hacer uso de ordenadores y se permite el préstamo interbibliotecario.",
       },
       ocio: {
-        cine: "Apertura de cines y teatros: aforo limitado al 50%.",
+        cine:
+          "Apertura de cines y teatros, asistencia con butacas pre-asignadas. Aforo limitado al 33%.",
         espectáculos:
-          "Actividades culturales en lugares cerrados: máximo 50 personas y, al aire libre: máximo 400 personas sentadas.",
+          "Actividades culturales en lugares cerrados: máximo 50 personas y, al aire libre: máximo 400 personas sentadas. Aforo limitado al 33%.",
         exteriores:
-          " Actividades culturales al aire libre: máximo 400 personas sentadas",
+          " Actividades culturales al aire libre: máximo 400 personas sentadas. Aforo limitado al 33%.",
       },
       funerales: {
-        funerales: "si",
+        funerales:
+          "Aforo limitado: al aire libre hasta 25 personas y en espacios cerrados hasta 15 personas.",
       },
     },
   },

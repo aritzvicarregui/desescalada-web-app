@@ -45,7 +45,7 @@ class Panel extends React.Component {
     const { id } = this.state;
 
     return (
-      <div className="panel">
+      <main className="panel">
         <City getCity={getCity} city={city} />
         <CurrentPhase month={month} date={date} day={day} phase={phase} />
         <Activity
@@ -67,7 +67,7 @@ class Panel extends React.Component {
           openRR={this.props.openRR}
           closeRR={this.props.closeRR}
         />
-      </div>
+      </main>
     );
   }
 }
