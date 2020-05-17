@@ -79,7 +79,7 @@ const phases = [
         takeaway: "Con cita previa",
         enlocal: null,
         terrazas:
-          "Apertura de terrazas con ciertas limitaciones: aforo hasta 30%-50%",
+          "Apertura de terrazas con ciertas limitaciones: aforo hasta 30%-50%.",
         discotecas: null,
         hoteles:
           "No se permite el uso de instalaciones de uso común, como piscinas, gimnasios o zonas de recreo.",
