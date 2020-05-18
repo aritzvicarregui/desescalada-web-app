@@ -10,8 +10,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -31,8 +31,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -51,8 +51,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -89,8 +89,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -107,8 +107,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -305,8 +305,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -360,8 +360,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -414,8 +414,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -543,8 +543,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -561,8 +561,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -581,8 +581,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -600,8 +600,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -636,8 +636,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -656,8 +656,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -694,8 +694,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -823,8 +823,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -843,8 +843,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -863,8 +863,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -882,8 +882,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
@@ -919,8 +919,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
-        mes: "junio",
+        dia: 31,
+        mes: "mayo",
       },
       3: {
         dia: 15,
