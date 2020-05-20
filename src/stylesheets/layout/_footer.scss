@@ -10,16 +10,17 @@
   border-radius: 20px 20px 0px 0px;
   background-image: radial-gradient($colorIcons, $colorBgHeaderDark);
   box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.05);
-  padding: 15px 5% 15px 5%;
+  padding: 5px 5% 5px 5%;
   z-index: 800;
   text-align: center;
 
   @include forPc {
-    grid-column: 2 / span 5;
+    grid-column: 1/-1;
     grid-row: 4;
     background-image: none;
     background-color: $colorBgHeaderDark;
     border-radius: 6px 6px 0px 0px;
+    grid-template-columns: 50px repeat(2, 1fr);
   }
 
   h6 {
@@ -31,6 +32,14 @@
 
     @include forTablet {
       font-size: $fontTH6;
+    }
+
+    @include forPc {
+      grid-row: 1;
+      grid-column: 2;
+      font-size: $fontH3;
+      align-self: center;
+      justify-self: left;
     }
 
     &:hover,
@@ -52,6 +61,15 @@
       height: 50px;
       width: 50px;
     }
+
+    @include forPc {
+      height: 45px;
+      width: 45px;
+      align-self: center;
+      justify-self: left;
+      grid-row: 1;
+      grid-column: 1;
+    }
   }
 
   .reg {
@@ -64,6 +82,14 @@
 
     @include forTablet {
       font-size: $fontH4;
+    }
+
+    @include forPc {
+      font-size: $fontA;
+      align-self: center;
+      justify-self: right;
+      grid-row: 1;
+      grid-column: 3;
     }
 
     &:hover,

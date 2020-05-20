@@ -76,6 +76,10 @@
       font-weight: bold;
       line-height: $lineHeight;
       letter-spacing: 1.1px;
+
+      @include forPc {
+        padding-left: 0;
+      }
     }
 
     .timeText {

@@ -11,7 +11,7 @@
   }
 
   @include forPc {
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-template-columns: 1fr;
     gap: 2%;
     align-items: stretch;
@@ -91,8 +91,8 @@
         place-self: center;
       }
       @include forPc {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         grid-column: 1/2;
         grid-row: 1/-1;
         place-self: center;

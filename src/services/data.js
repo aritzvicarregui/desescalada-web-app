@@ -59,7 +59,7 @@ const phases = [
         b: "de 10:00 a 12:00 // de 19:00 a 20:00",
         c: "de 6:00 a 10:00 // de 20:00 a 23:00",
         d:
-          " con 1 persona conviviente. 1 vez al día y a no más de 1 kilómetro.",
+          "📌con 1 persona conviviente   📌1 vez al día   📌máximo 1 hora   📌a no más de 1 kilómetro del domicilio",
       },
       ceremonias: {
         cultos: "Aforo limitado al 33%.",
@@ -117,6 +117,13 @@ const phases = [
   {
     name: "dos",
     actividades: {
+      horarios: {
+        a: "de 12:00 a 19:00",
+        b: "de 10:00 a 12:00 // de 19:00 a 20:00",
+        c: "de 6:00 a 10:00 // de 20:00 a 23:00",
+        d:
+          "📌con 1 persona conviviente   📌1 vez al día   📌máximo 1 hora   📌a no más de 1 kilómetro del domicilio",
+      },
       ceremonias: {
         cultos: "Aforo limitado al 50%.",
         bodas:
