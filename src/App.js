@@ -135,8 +135,18 @@ class App extends React.Component {
       });
     } else if (
       date >= activity[2][1].dia &&
-      date < activity[3][1].dia &&
+      date <= 31 &&
       month === activity[2][1].mes
+    ) {
+      this.setState({
+        city: value,
+        phase: 2,
+        activities: activityList[2][1].actividades,
+      });
+    } else if (
+      date <= 1 &&
+      date >= activity[3][1].dia &&
+      month === activity[3][1].mes
     ) {
       this.setState({
         city: value,

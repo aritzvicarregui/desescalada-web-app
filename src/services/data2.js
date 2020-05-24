@@ -127,6 +127,7 @@ const data2 = [
       2: {
         dia: 25,
         mes: "mayo",
+        info: "Totana sigue en Fase 1.",
       },
       3: {
         dia: 8,
@@ -322,6 +323,7 @@ const data2 = [
       1: {
         dia: 11,
         mes: "mayo",
+        info: "Terres de l'/Ebre y Camp de Tarragona pasan a Fase 1.",
       },
       2: {
         dia: 25,
@@ -598,6 +600,7 @@ const data2 = [
       1: {
         dia: 18,
         mes: "mayo",
+        info: "Alt Pirineu i Aran pasa a Fase 2.",
       },
       2: {
         dia: 31,
