@@ -5,6 +5,7 @@ import data from "./services/data";
 import data2 from "./services/data2";
 import "./stylesheets/App.scss";
 import Footer from "./components/Footer";
+import Phases from "./components/Phases";
 
 class App extends React.Component {
   constructor(props) {
@@ -201,11 +202,13 @@ class App extends React.Component {
       city,
       other,
       isRefsOpen,
+      results,
     } = this.state;
 
     return (
       <div className="App">
         <CurrentDay month={month} date={date} day={day} year={year} />
+        <Phases results={results} />
         <Panel
           month={month}
           date={date}

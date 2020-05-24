@@ -20,7 +20,7 @@
     background-image: none;
     background-color: $colorBgHeaderDark;
     border-radius: 6px 6px 0px 0px;
-    grid-template-columns: 50px repeat(2, 1fr);
+    grid-template-columns: 40px repeat(2, 1fr);
   }
 
   h6 {
@@ -37,7 +37,7 @@
     @include forPc {
       grid-row: 1;
       grid-column: 2;
-      font-size: $fontH3;
+      font-size: $fontTH4;
       align-self: center;
       justify-self: left;
     }
@@ -63,8 +63,8 @@
     }
 
     @include forPc {
-      height: 45px;
-      width: 45px;
+      height: 35px;
+      width: 35px;
       align-self: center;
       justify-self: left;
       grid-row: 1;

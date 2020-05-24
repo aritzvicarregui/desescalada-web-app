@@ -17,6 +17,17 @@ const Resources = (props) => {
         <ul className="refsList">
           <li>
             <a
+              href="https://www.lamoncloa.gob.es/covid-19/Paginas/mapa-fases-desescalada.aspx"
+              title="Mapa de transición a la nueva normalidad"
+            >
+              Mapa de transición a la nueva normalidad
+            </a>
+            . Gobierno de España - Presidencia de Gobierno | Consultado el 24 de
+            mayo de 2020.
+          </li>
+
+          <li>
+            <a
               href=" https://www.boe.es/boe/dias/2020/05/09/pdfs/BOE-A-2020-4911.pdf"
               title="BOE Orden SND/399/2020, de 9 de mayo"
             >
