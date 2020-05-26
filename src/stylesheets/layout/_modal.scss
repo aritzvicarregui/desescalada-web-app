@@ -52,7 +52,7 @@
 }
 
 .modal {
-  opacity: 0;
+  display: none;
 
   &.modal--is-open {
     position: absolute;
