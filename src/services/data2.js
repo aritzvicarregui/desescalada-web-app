@@ -127,7 +127,7 @@ const data2 = [
       2: {
         dia: 25,
         mes: "mayo",
-        info: "Totana sigue en Fase 1.",
+        info: "Totana sigue en Fase 1 debido a un rebrote.",
       },
       3: {
         dia: 8,
