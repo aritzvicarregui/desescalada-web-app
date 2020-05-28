@@ -91,7 +91,8 @@ const Text = (props) => {
         'En todo caso, deberán respetarse las medidas de seguridad e higiene
         establecidas por las autoridades sanitarias para la prevención del
         COVID-19, relativas al mantenimiento de una distancia mínima de
-        seguridad de dos metros, higiene de manos y etiqueta respiratoria.'
+        seguridad de dos metros e higiene de manos. El uso de la mascarilla es
+        obligatoria.'
       </li>
     </ul>
   );
