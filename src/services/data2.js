@@ -10,11 +10,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -31,11 +31,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -51,11 +51,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -89,11 +89,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -107,11 +107,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -306,11 +306,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -362,11 +362,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -416,11 +416,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -545,11 +545,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -563,11 +563,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -583,11 +583,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -603,11 +603,11 @@ const data2 = [
         info: "Alt Pirineu i Aran pasa a Fase 2.",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -639,11 +639,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -659,11 +659,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -697,11 +697,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -826,11 +826,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -846,11 +846,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -866,11 +866,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -885,11 +885,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -922,11 +922,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 31,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 15,
+        dia: 22,
         mes: "junio",
       },
     },

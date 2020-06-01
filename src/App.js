@@ -113,67 +113,36 @@ class App extends React.Component {
     const result = arrays.find((array) => array[0] === value);
     const activity = Object.entries(result[1]);
     const activityList = Object.entries(results);
-    let breakCondition = false;
-
+    console.log(activity[2][1].mes);
     if (
       date >= activity[0][1].dia &&
       date < activity[1][1].dia &&
-      month === activity[0][1].mes &&
-      !breakCondition
+      month === activity[0][1].mes
     ) {
       this.setState({
         city: value,
         phase: 0,
         activities: activityList[0][1].actividades,
       });
-    } else if (
-      date >= activity[1][1].dia &&
-      date <= activity[2][1] &&
-      month === activity[2][1].mes &&
-      !breakCondition
-    ) {
+    } else if (date >= activity[1][1].dia && month === activity[1][1].mes) {
       this.setState({
         city: value,
         phase: 1,
         activities: activityList[1][1].actividades,
       });
-    } else if (
-      date <= activity[2][1].dia &&
-      month === activity[2][1].mes &&
-      !breakCondition
-    ) {
+    } else if (date <= activity[2][1].dia && month === activity[2][1].mes) {
       this.setState({
         city: value,
         phase: 1,
         activities: activityList[1][1].actividades,
       });
-    } else if (
-      date >= activity[2][1].dia &&
-      month === activity[2][1].mes &&
-      !breakCondition
-    ) {
+    } else if (date >= activity[2][1].dia && month === activity[2][1].mes) {
       this.setState({
         city: value,
         phase: 2,
         activities: activityList[2][1].actividades,
       });
-    } else if (
-      date >= activity[2][1].dia &&
-      date <= activity[3][1] &&
-      month === activity[3][1].mes &&
-      !breakCondition
-    ) {
-      this.setState({
-        city: value,
-        phase: 2,
-        activities: activityList[2][1].actividades,
-      });
-    } else if (
-      date <= 1 &&
-      date >= activity[3][1].dia &&
-      month === activity[3][1].mes &&
-      !breakCondition
-    ) {
+    } else if (date <= activity[3][1].dia && month === activity[3][1].mes) {
       this.setState({
         city: value,
         phase: 2,
