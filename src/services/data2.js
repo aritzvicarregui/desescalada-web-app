@@ -29,6 +29,7 @@ const data2 = [
       1: {
         dia: 25,
         mes: "mayo",
+        info: "Alt Penedès, Catalunya Central, Garraf pasan a Fase 2.",
       },
       2: {
         dia: 8,
@@ -51,7 +52,7 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 8,
+        dia: 1,
         mes: "junio",
       },
       3: {
@@ -69,8 +70,8 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 25,
-        mes: "mayo",
+        dia: 1,
+        mes: "junio",
       },
       3: {
         dia: 8,
@@ -89,7 +90,7 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 8,
+        dia: 1,
         mes: "junio",
       },
       3: {
@@ -107,7 +108,7 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 8,
+        dia: 1,
         mes: "junio",
       },
       3: {
@@ -182,6 +183,7 @@ const data2 = [
       2: {
         dia: 25,
         mes: "mayo",
+        info: "Formentera pasa a la fase 3",
       },
       3: {
         dia: 8,
@@ -218,9 +220,10 @@ const data2 = [
       2: {
         dia: 25,
         mes: "mayo",
+        info: "El Hierro, La Gomera y La Graciosa pasan a la fase 3",
       },
       3: {
-        dia: 8,
+        dia: 16,
         mes: "junio",
       },
     },
@@ -270,11 +273,11 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 25,
-        mes: "mayo",
+        dia: 8,
+        mes: "junio",
       },
       3: {
-        dia: 8,
+        dia: 22,
         mes: "junio",
       },
     },
@@ -306,7 +309,7 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 8,
+        dia: 1,
         mes: "junio",
       },
       3: {
